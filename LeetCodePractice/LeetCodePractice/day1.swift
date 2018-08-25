@@ -45,7 +45,7 @@
 
 import Foundation
 
-class Solution {
+class SolutionDay1 {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         
 //        func switchArray<T>(_ array: inout [T], from fromIndex: Int, to toIndex: Int) {
@@ -89,6 +89,32 @@ class Solution {
  本质是一个很简单的题。但审错了题意… 注掉的两个内联函数代表我错误的思路
  */
 
+
+//答案：双指针法
+class SolutionDay1Better {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        guard !nums.isEmpty else { return 0 }
+        //双指针法
+        
+        var slowIndex = 0
+        
+        for fastIndex in 1..<nums.count {
+            
+            let valueSlow = nums[slowIndex]
+            let valueFast = nums[fastIndex]
+            
+            //在两值不相等的时候，重复值的查找已结束
+            if valueSlow != valueFast {
+                slowIndex += 1
+                if slowIndex != fastIndex {
+                    nums[slowIndex] = valueFast
+                }
+            }
+        }
+        
+        return slowIndex + 1
+    }
+}
 
 
 

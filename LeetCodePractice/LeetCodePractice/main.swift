@@ -9,10 +9,3 @@
 import Foundation
 
 print("Hello, World!")
-
-//day1
-
-//
-var array = [1,1,2,2,3]
-
-print(Solution().removeDuplicates(&array))
