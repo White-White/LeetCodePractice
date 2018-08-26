@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2F02B521325F9D00B32E46 /* day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02B421325F9D00B32E46 /* day2.swift */; };
+		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F2F02B421325F9D00B32E46 /* day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = day2.swift; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/day2.swift"; sourceTree = "<group>"; };
+		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				1FA7E9FD2131792100163B81 /* main.swift */,
 				1FA7EA042131793100163B81 /* day1.swift */,
+				1F2F02B421325F9D00B32E46 /* day2.swift */,
+				1F2F02BC2132643900B32E46 /* day2.c */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 				TargetAttributes = {
 					1FA7E9F92131792000163B81 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -123,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
+				1F2F02B521325F9D00B32E46 /* day2.swift in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
+				1F2F02BD2132643900B32E46 /* day2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +255,16 @@
 		1FA7EA022131792100163B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -255,8 +272,15 @@
 		1FA7EA032131792100163B81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
