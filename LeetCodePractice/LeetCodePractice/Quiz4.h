@@ -69,40 +69,7 @@
 }
 
 + (int)singleNumberv2:(int *)nums numsSize:(int)numsSize {
-    
-    
-    
-    for (int j = 1; j < numsSize; j++) {
-        
-        for (int k = j; k >= 1; k--) {
-            
-            
-            int *ptrRight = nums+k;
-            int *ptrLeft = nums+k-1;
-            
-            if (*ptrLeft > *ptrRight) {
-                //exchange
-                int temp = *ptrLeft;
-                *ptrLeft = *ptrRight;
-                *ptrRight = temp;
-            } else {
-                continue;
-            }
-            
-        }
-        
-        
-    }
-    
-    //已排完序
-    for (int l = 0; l < numsSize; ) {
-        if (*(nums+l) != *(nums+l+1)) {
-            return *(nums+l);
-        }
-        l+=2;
-    }
-    
-    
+    //还未实现
     return 0;
 }
 
