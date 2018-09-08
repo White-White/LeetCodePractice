@@ -12,6 +12,7 @@
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
 		1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C7213BBCFB00B32E46 /* Quiz4.m */; };
 		1F2F02CB213BBDB000B32E46 /* OCRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02CA213BBDB000B32E46 /* OCRun.m */; };
+		1F2F02CD2143B5CF00B32E46 /* Quiz5.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02CC2143B5CF00B32E46 /* Quiz5.c */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		1F2F02C7213BBCFB00B32E46 /* Quiz4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz4.m; sourceTree = "<group>"; };
 		1F2F02C9213BBDB000B32E46 /* OCRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRun.h; sourceTree = "<group>"; };
 		1F2F02CA213BBDB000B32E46 /* OCRun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRun.m; sourceTree = "<group>"; };
+		1F2F02CC2143B5CF00B32E46 /* Quiz5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz5.c; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				1F2F02C421327B8F00B32E46 /* Day3.m */,
 				1F2F02C6213BBCFB00B32E46 /* Quiz4.h */,
 				1F2F02C7213BBCFB00B32E46 /* Quiz4.m */,
+				1F2F02CC2143B5CF00B32E46 /* Quiz5.c */,
 				1F2F02C3213270CB00B32E46 /* Bridge.h */,
 			);
 			path = LeetCodePractice;
@@ -152,6 +155,7 @@
 				1F2F02B521325F9D00B32E46 /* day2.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
+				1F2F02CD2143B5CF00B32E46 /* Quiz5.c in Sources */,
 				1F2F02BD2132643900B32E46 /* day2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
