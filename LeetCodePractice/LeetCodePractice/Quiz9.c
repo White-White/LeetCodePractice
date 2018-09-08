@@ -91,27 +91,22 @@ char** fizzBuzz(int n, int* returnSize) {
         int is5 = !((j+1)%5);
         
         if (is3 && is5) {
-//            char *array = (char*)malloc(9*sizeof(char));
-//            strcpy(array, "Fizzbuzz");
-//            array[8] = '\0';
-//            finalArray[j] = array;
-            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "FizzBuzz");
+            char *array = (char*)malloc(9*sizeof(char));
+            strcpy(array, "FizzBuzz");
+            finalArray[j] = array;
         } else if (is3) {
-//            char *array = (char*)malloc(5*sizeof(char));
-//            strcpy(array, "Fizz");
-//            array[4] = '\0';
-//            finalArray[j] = array;
-            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "Fizz");
+            char *array = (char*)malloc(5*sizeof(char));
+            strcpy(array, "Fizz");
+            finalArray[j] = array;
         } else if (is5) {
-//            char *array = (char*)malloc(5*sizeof(char));
-//            strcpy(array, "Buzz");
-//            array[4] = '\0';
-//            finalArray[j] = array;
-            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "Buzz");
+            char *array = (char*)malloc(5*sizeof(char));
+            strcpy(array, "Buzz");
+            finalArray[j] = array;
         } else {
 //            int length = 0;
 //            finalArray[j] = convertNumToChar(j+1, &length);
             sprintf(finalArray[j] = malloc(10 * sizeof(char)), "%d", j+1);
+            //注：这里注释掉的函数，在leetCode的playground和mac本机显示正常，但是过不了leetCode的case
         }
     }
     
@@ -120,19 +115,30 @@ char** fizzBuzz(int n, int* returnSize) {
     return finalArray;
 }
 
-//注: 被注释代码可以输出正确结果 但过不了leetCode审核
 
-
-
-
-
-
-
-
-
-
-
-
+char** fizzBuzzSolution2(int n, int* returnSize) {
+    
+    char** finalArray = (char**)malloc(n*sizeof(char*));
+    
+    for (int j = 0; j < n; j++) {
+        int is3 = !((j+1)%3);
+        int is5 = !((j+1)%5);
+        
+        if (is3 && is5) {
+            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "Fizz");
+        } else if (is3) {
+            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "Fizz");
+        } else if (is5) {
+            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "Buzz");
+        } else {
+            sprintf(finalArray[j] = malloc(10 * sizeof(char)), "%d", j+1);
+        }
+    }
+    
+    *returnSize = n;
+    
+    return finalArray;
+}
 
 
 
