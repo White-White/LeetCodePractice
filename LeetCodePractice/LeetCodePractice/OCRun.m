@@ -7,11 +7,18 @@
 //
 
 #import "OCRun.h"
+#import "Quiz9.h"
 
 @implementation OCRun
 
 + (void)run {
-//    [Quiz4 singleNumber:<#(int *)#> numsSize:<#(int)#>]
+
+    int size;
+    char **result = fizzBuzz(5, &size);
+    
+    for (int j = 0; j < size; j++) {
+        NSLog(@"%s", result[j]);
+    }
 }
 
 @end

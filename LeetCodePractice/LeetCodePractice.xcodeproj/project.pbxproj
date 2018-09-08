@@ -16,6 +16,7 @@
 		1F2F02CF2143B65C00B32E46 /* Quiz6.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02CE2143B65C00B32E46 /* Quiz6.c */; };
 		1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02D02143CB1B00B32E46 /* Quiz7.c */; };
 		1F2F02D32143CF9000B32E46 /* Quiz8.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02D22143CF9000B32E46 /* Quiz8.c */; };
+		1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02DB2143E85D00B32E46 /* Quiz9.c */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,8 @@
 		1F2F02CE2143B65C00B32E46 /* Quiz6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz6.c; sourceTree = "<group>"; };
 		1F2F02D02143CB1B00B32E46 /* Quiz7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz7.c; sourceTree = "<group>"; };
 		1F2F02D22143CF9000B32E46 /* Quiz8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz8.c; sourceTree = "<group>"; };
+		1F2F02DA2143E85D00B32E46 /* Quiz9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz9.h; sourceTree = "<group>"; };
+		1F2F02DB2143E85D00B32E46 /* Quiz9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz9.c; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				1F2F02CE2143B65C00B32E46 /* Quiz6.c */,
 				1F2F02D02143CB1B00B32E46 /* Quiz7.c */,
 				1F2F02D22143CF9000B32E46 /* Quiz8.c */,
+				1F2F02DA2143E85D00B32E46 /* Quiz9.h */,
+				1F2F02DB2143E85D00B32E46 /* Quiz9.c */,
 				1F2F02C3213270CB00B32E46 /* Bridge.h */,
 			);
 			path = LeetCodePractice;
@@ -161,6 +166,7 @@
 				1F2F02D32143CF9000B32E46 /* Quiz8.c in Sources */,
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
 				1F2F02CF2143B65C00B32E46 /* Quiz6.c in Sources */,
+				1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */,
 				1F2F02CB213BBDB000B32E46 /* OCRun.m in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
