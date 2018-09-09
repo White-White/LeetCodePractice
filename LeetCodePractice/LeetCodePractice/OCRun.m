@@ -9,12 +9,14 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz13.h"
+#include "Quiz15.h"
 
 @implementation OCRun
 
 + (void)run {
-    
+    int array[1];
+    array[0] = 0;
+    missingNumber(array, 1);
 }
 
 @end
