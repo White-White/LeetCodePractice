@@ -14,7 +14,7 @@
 @implementation OCRun
 
 + (void)run {
-    generate(5, NULL);
+    
 }
 
 @end
