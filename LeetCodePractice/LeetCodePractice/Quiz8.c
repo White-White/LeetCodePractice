@@ -18,6 +18,7 @@
 
 #include <stdio.h>
 
+//解法1
 int insert(int num, int* toArray, int arrayLength) {
     
     int indexToInsert = arrayLength;
@@ -50,6 +51,36 @@ void merge(int* nums1, int m, int* nums2, int n) {
     }
 }
 
+//解法2 因为num1的空间可以保证 所以可以将两个数组从num1 m+n-1的位置开始从大到小合并
+
+void merge2(int* nums1, int m, int* nums2, int n) {
+    
+    int k = m + n - 1;
+    int i = m - 1;
+    int j = n - 1;
+    
+    while (k >= 0) {
+        if (i < 0) {
+            nums1[k] = nums2[j];
+            j--;
+        } else if (j < 0) {
+            nums1[k] = nums1[i];
+            i--;
+        } else {
+            int numFrom1 =nums1[i];
+            int numFrom2 =nums2[j];
+            
+            if (numFrom1 > numFrom2) {
+                nums1[k] = numFrom1;
+                i--;
+            } else {
+                nums1[k] = numFrom2;
+                j--;
+            }
+        }
+        k--;
+    }
+}
 
 
 
