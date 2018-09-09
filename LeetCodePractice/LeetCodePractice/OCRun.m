@@ -9,13 +9,12 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz10.h"
+#include "Quiz13.h"
 
 @implementation OCRun
 
 + (void)run {
-    NSLog(@"%d", hammingWeight(11));
-    NSLog(@"%d", hammingDistance(1,4));
+    generate(5, NULL);
 }
 
 @end
