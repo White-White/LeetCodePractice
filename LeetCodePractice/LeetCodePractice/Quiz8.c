@@ -82,9 +82,19 @@ void merge2(int* nums1, int m, int* nums2, int n) {
     }
 }
 
+//解法3 在解法2的基础上 因为nums1本身就是排序的 所以可以简化操作
 
-
-
+void merge3(int* nums1, int m, int* nums2, int n) {
+    
+    int k = m + n - 1;
+    int i = m - 1;
+    int j = n - 1;
+    
+    //当j循环完毕后 可以认为数组已完全排序
+    while (j > 0) {
+        nums1[k--] = ((i >= 0) && (nums1[i] > nums2[j])) ? nums1[i--] : nums2[j--];
+    }
+}
 
 
 
