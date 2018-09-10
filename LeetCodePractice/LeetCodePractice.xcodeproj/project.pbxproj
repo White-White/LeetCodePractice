@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F2F02B521325F9D00B32E46 /* day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02B421325F9D00B32E46 /* day2.swift */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
 		1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C7213BBCFB00B32E46 /* Quiz4.m */; };
@@ -23,6 +22,7 @@
 		1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02E621452B5200B32E46 /* Quiz13.c */; };
 		1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02E92145304D00B32E46 /* Quiz14.c */; };
 		1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02EC2145372500B32E46 /* Quiz15.c */; };
+		1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF1214692D000B72F64 /* Quiz16.c */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +40,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F2F02B421325F9D00B32E46 /* day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = day2.swift; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/day2.swift"; sourceTree = "<group>"; };
 		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
 		1F2F02C02132709200B32E46 /* Day3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day3.h; sourceTree = "<group>"; };
 		1F2F02C3213270CB00B32E46 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
@@ -66,6 +65,8 @@
 		1F2F02E92145304D00B32E46 /* Quiz14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz14.c; sourceTree = "<group>"; };
 		1F2F02EB2145372500B32E46 /* Quiz15.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz15.h; sourceTree = "<group>"; };
 		1F2F02EC2145372500B32E46 /* Quiz15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz15.c; sourceTree = "<group>"; };
+		1F6E5AF0214692D000B72F64 /* Quiz16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz16.h; sourceTree = "<group>"; };
+		1F6E5AF1214692D000B72F64 /* Quiz16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz16.c; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -82,6 +83,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F6E5AF3214692E400B72F64 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				1FA7EA042131793100163B81 /* day1.swift */,
+				1F2F02BC2132643900B32E46 /* day2.c */,
+				1F2F02C02132709200B32E46 /* Day3.h */,
+				1F2F02C421327B8F00B32E46 /* Day3.m */,
+				1F2F02C6213BBCFB00B32E46 /* Quiz4.h */,
+				1F2F02C7213BBCFB00B32E46 /* Quiz4.m */,
+				1F2F02CC2143B5CF00B32E46 /* Quiz5.c */,
+				1F2F02CE2143B65C00B32E46 /* Quiz6.c */,
+				1F2F02D02143CB1B00B32E46 /* Quiz7.c */,
+				1F2F02D22143CF9000B32E46 /* Quiz8.c */,
+				1F2F02DA2143E85D00B32E46 /* Quiz9.h */,
+				1F2F02DB2143E85D00B32E46 /* Quiz9.c */,
+				1F2F02DF2145258800B32E46 /* Quiz10.h */,
+				1F2F02E02145258800B32E46 /* Quiz10.c */,
+				1F2F02E2214528EC00B32E46 /* Quiz11.h */,
+				1F2F02E3214528EC00B32E46 /* Quiz11.c */,
+				1F2F02E521452B5200B32E46 /* Quiz13.h */,
+				1F2F02E621452B5200B32E46 /* Quiz13.c */,
+				1F2F02E82145304D00B32E46 /* Quiz14.h */,
+				1F2F02E92145304D00B32E46 /* Quiz14.c */,
+				1F2F02EB2145372500B32E46 /* Quiz15.h */,
+				1F2F02EC2145372500B32E46 /* Quiz15.c */,
+				1F6E5AF0214692D000B72F64 /* Quiz16.h */,
+				1F6E5AF1214692D000B72F64 /* Quiz16.c */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		1FA7E9F12131792000163B81 = {
 			isa = PBXGroup;
 			children = (
@@ -105,29 +137,7 @@
 				1F2F02DD2144B9CB00B32E46 /* swiftHelper.swift */,
 				1F2F02C9213BBDB000B32E46 /* OCRun.h */,
 				1F2F02CA213BBDB000B32E46 /* OCRun.m */,
-				1FA7EA042131793100163B81 /* day1.swift */,
-				1F2F02B421325F9D00B32E46 /* day2.swift */,
-				1F2F02BC2132643900B32E46 /* day2.c */,
-				1F2F02C02132709200B32E46 /* Day3.h */,
-				1F2F02C421327B8F00B32E46 /* Day3.m */,
-				1F2F02C6213BBCFB00B32E46 /* Quiz4.h */,
-				1F2F02C7213BBCFB00B32E46 /* Quiz4.m */,
-				1F2F02CC2143B5CF00B32E46 /* Quiz5.c */,
-				1F2F02CE2143B65C00B32E46 /* Quiz6.c */,
-				1F2F02D02143CB1B00B32E46 /* Quiz7.c */,
-				1F2F02D22143CF9000B32E46 /* Quiz8.c */,
-				1F2F02DA2143E85D00B32E46 /* Quiz9.h */,
-				1F2F02DB2143E85D00B32E46 /* Quiz9.c */,
-				1F2F02DF2145258800B32E46 /* Quiz10.h */,
-				1F2F02E02145258800B32E46 /* Quiz10.c */,
-				1F2F02E2214528EC00B32E46 /* Quiz11.h */,
-				1F2F02E3214528EC00B32E46 /* Quiz11.c */,
-				1F2F02E521452B5200B32E46 /* Quiz13.h */,
-				1F2F02E621452B5200B32E46 /* Quiz13.c */,
-				1F2F02E82145304D00B32E46 /* Quiz14.h */,
-				1F2F02E92145304D00B32E46 /* Quiz14.c */,
-				1F2F02EB2145372500B32E46 /* Quiz15.h */,
-				1F2F02EC2145372500B32E46 /* Quiz15.c */,
+				1F6E5AF3214692E400B72F64 /* Easy */,
 				1F2F02C3213270CB00B32E46 /* Bridge.h */,
 			);
 			path = LeetCodePractice;
@@ -198,11 +208,11 @@
 				1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */,
 				1F2F02CB213BBDB000B32E46 /* OCRun.m in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
+				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */,
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
-				1F2F02B521325F9D00B32E46 /* day2.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
@@ -333,7 +343,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -351,7 +361,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
