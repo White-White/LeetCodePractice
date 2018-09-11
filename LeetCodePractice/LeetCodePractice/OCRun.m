@@ -15,7 +15,7 @@
 
 + (void)run {
     
-    NSLog(@"%d", isPowerOfThree(45));
+    NSLog(@"%d", isPowerOfThreeBetter(9));
     
 }
 

@@ -13,5 +13,7 @@
 #include <stdbool.h>
 
 bool isPowerOfThree(int n);
+bool isPowerOfThreeBetter(int n);
+
 
 #endif /* Quiz18_h */

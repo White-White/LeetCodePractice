@@ -23,13 +23,19 @@
  */
 
 #include "Quiz18.h"
-
+#include <math.h>
 
 bool isPowerOfThree(int n) {
     if (n == 0) { return false; }
-    if (n%3 == 0) {
-        return isPowerOfThree(n/3);
-    } else {
-        return false;
+    int i = n;
+    while (i && i%3 == 0) {
+        //能被3整除
+        i /= 3;
     }
+    return i == 1;
+}
+
+//使用换底对数公示
+bool isPowerOfThreeBetter(int n) {
+    return (n > 0 && ( (int)(log10(n) / log10(3)) - log10(n) / log10(3) == 0 ) );
 }
