@@ -9,9 +9,7 @@
 import Foundation
 
 //OC C 语言测试
-for index in 0...10 {
-    OCRun.run()
-}
+OCRun.run()
 
 
 //swift语言测试
