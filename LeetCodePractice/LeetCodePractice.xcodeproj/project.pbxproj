@@ -25,6 +25,7 @@
 		1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF1214692D000B72F64 /* Quiz16.c */; };
 		1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF82147DC4E00B72F64 /* Quiz17.c */; };
 		1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AFB2147EC4600B72F64 /* Quiz18.c */; };
+		1F6E5B022149128800B72F64 /* Quiz19.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5B012149128800B72F64 /* Quiz19.c */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,8 @@
 		1F6E5AF82147DC4E00B72F64 /* Quiz17.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz17.c; sourceTree = "<group>"; };
 		1F6E5AFA2147EC4600B72F64 /* Quiz18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz18.h; sourceTree = "<group>"; };
 		1F6E5AFB2147EC4600B72F64 /* Quiz18.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz18.c; sourceTree = "<group>"; };
+		1F6E5B002149128800B72F64 /* Quiz19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz19.h; sourceTree = "<group>"; };
+		1F6E5B012149128800B72F64 /* Quiz19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz19.c; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				1F6E5AF82147DC4E00B72F64 /* Quiz17.c */,
 				1F6E5AFA2147EC4600B72F64 /* Quiz18.h */,
 				1F6E5AFB2147EC4600B72F64 /* Quiz18.c */,
+				1F6E5B002149128800B72F64 /* Quiz19.h */,
+				1F6E5B012149128800B72F64 /* Quiz19.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
+				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
 				1F2F02E4214528EC00B32E46 /* Quiz11.c in Sources */,
 				1F2F02CD2143B5CF00B32E46 /* Quiz5.c in Sources */,
