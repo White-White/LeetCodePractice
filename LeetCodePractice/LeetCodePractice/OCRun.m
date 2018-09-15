@@ -9,14 +9,22 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz18.h"
+#include "Quiz20.h"
 
 @implementation OCRun
 
 + (void)run {
     
-    NSLog(@"%d", isPowerOfThreeBetter(9));
-    
+//    Your MinStack struct will be instantiated and called as such:
+    MinStack* obj = minStackCreate(10);
+    minStackPush(obj, -2);
+    minStackPush(obj, 0);
+    minStackPush(obj, -3);
+    printf("%d", minStackGetMin(obj));
+    minStackPop(obj);
+    printf("%d", minStackTop(obj));
+    printf("%d", minStackGetMin(obj));
+    minStackFree(obj);
 }
 
 @end
