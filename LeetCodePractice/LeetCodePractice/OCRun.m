@@ -9,22 +9,12 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz20.h"
+#include "Quiz21.h"
 
 @implementation OCRun
 
 + (void)run {
-    
-//    Your MinStack struct will be instantiated and called as such:
-    MinStack* obj = minStackCreate(10);
-    minStackPush(obj, -2);
-    minStackPush(obj, 0);
-    minStackPush(obj, -3);
-    printf("%d", minStackGetMin(obj));
-    minStackPop(obj);
-    printf("%d", minStackTop(obj));
-    printf("%d", minStackGetMin(obj));
-    minStackFree(obj);
+    printf("%d", romanToInt("IV"));
 }
 
 @end
