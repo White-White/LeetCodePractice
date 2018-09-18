@@ -48,3 +48,14 @@ void rotate(int* nums, int numsSize, int k) {
     
     memcpy(nums, tempNums, sizeof(int)*numsSize);
 }
+
+void rotateBetter1(int* nums, int numsSize, int k) {
+    int tempNums[numsSize];
+    int indexToMove = k%numsSize;
+    if (indexToMove == 0) { return; }
+    for (int i = 0; i < numsSize; i++) {
+        int dest = (i+indexToMove)%numsSize;
+        tempNums[dest] = nums[i];
+    }
+    memcpy(nums, tempNums, sizeof(int)*numsSize);
+}
