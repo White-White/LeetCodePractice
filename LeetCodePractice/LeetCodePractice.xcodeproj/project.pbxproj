@@ -30,6 +30,7 @@
 		1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD75214DF9BD007AE55E /* Quiz21.c */; };
 		1F7FAD79214E2FB5007AE55E /* Quiz22.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD78214E2FB5007AE55E /* Quiz22.c */; };
 		1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7C215149DA007AE55E /* Quiz23.c */; };
+		1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7F21514EB1007AE55E /* Quiz23.swift */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,7 @@
 		1F7FAD7B215149DA007AE55E /* Quiz23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz23.h; sourceTree = "<group>"; };
 		1F7FAD7C215149DA007AE55E /* Quiz23.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz23.c; sourceTree = "<group>"; };
 		1F7FAD7E21514A98007AE55E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1F7FAD7F21514EB1007AE55E /* Quiz23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz23.swift; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				1F7FAD7B215149DA007AE55E /* Quiz23.h */,
 				1F7FAD7C215149DA007AE55E /* Quiz23.c */,
+				1F7FAD7F21514EB1007AE55E /* Quiz23.swift */,
 			);
 			path = Easy2;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
 				1F2F02E4214528EC00B32E46 /* Quiz11.c in Sources */,
+				1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */,
 				1F2F02CD2143B5CF00B32E46 /* Quiz5.c in Sources */,
 				1F2F02BD2132643900B32E46 /* day2.c in Sources */,
 			);
