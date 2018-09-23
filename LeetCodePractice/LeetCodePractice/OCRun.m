@@ -9,16 +9,12 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz22.h"
+#include "Quiz24.h"
 
 @implementation OCRun
 
 + (void)run {
-    int arr[8] = {1, 2, 3, 4, 5, 6, 7, 8};
-    rotate(arr, 8, 5);
-    for (int i = 0; i < 8; i++) {
-        printf("%d", arr[i]);
-    }
+    isPalindromeLeetCode(10);
 }
 
 @end

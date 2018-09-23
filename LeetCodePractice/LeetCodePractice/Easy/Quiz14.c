@@ -28,10 +28,6 @@
 输入: "{[]}"
 输出: true
 */
-typedef enum {
-    false,
-    true
-} bool;
 
 #include "Quiz14.h"
 
