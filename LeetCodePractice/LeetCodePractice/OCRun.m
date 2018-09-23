@@ -9,12 +9,13 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz24.h"
+#include "Quiz26.h"
 
 @implementation OCRun
 
 + (void)run {
-    isPalindromeLeetCode(10);
+    int array[] = {1};
+    smallestRangeI(array, 1, 0);
 }
 
 @end
