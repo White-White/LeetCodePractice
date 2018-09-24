@@ -32,6 +32,7 @@
 		1F781C552158752A00D745D9 /* Quiz27.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C542158752A00D745D9 /* Quiz27.c */; };
 		1F781C582158B48000D745D9 /* Quiz28.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C572158B48000D745D9 /* Quiz28.c */; };
 		1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C5A2158B68100D745D9 /* Quiz29.c */; };
+		1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C5D2158BBA100D745D9 /* Quiz30.c */; };
 		1F7FAD73214CE4F0007AE55E /* Quiz20.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD72214CE4F0007AE55E /* Quiz20.c */; };
 		1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD75214DF9BD007AE55E /* Quiz21.c */; };
 		1F7FAD79214E2FB5007AE55E /* Quiz22.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD78214E2FB5007AE55E /* Quiz22.c */; };
@@ -99,6 +100,8 @@
 		1F781C572158B48000D745D9 /* Quiz28.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz28.c; sourceTree = "<group>"; };
 		1F781C592158B68100D745D9 /* Quiz29.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz29.h; sourceTree = "<group>"; };
 		1F781C5A2158B68100D745D9 /* Quiz29.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz29.c; sourceTree = "<group>"; };
+		1F781C5C2158BBA100D745D9 /* Quiz30.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz30.h; sourceTree = "<group>"; };
+		1F781C5D2158BBA100D745D9 /* Quiz30.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz30.c; sourceTree = "<group>"; };
 		1F7FAD71214CE4F0007AE55E /* Quiz20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz20.h; sourceTree = "<group>"; };
 		1F7FAD72214CE4F0007AE55E /* Quiz20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz20.c; sourceTree = "<group>"; };
 		1F7FAD74214DF9BD007AE55E /* Quiz21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz21.h; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				1F781C572158B48000D745D9 /* Quiz28.c */,
 				1F781C592158B68100D745D9 /* Quiz29.h */,
 				1F781C5A2158B68100D745D9 /* Quiz29.c */,
+				1F781C5C2158BBA100D745D9 /* Quiz30.h */,
+				1F781C5D2158BBA100D745D9 /* Quiz30.c */,
 			);
 			path = Easy2;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */,
+				1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */,
 				1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */,
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
