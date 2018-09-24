@@ -9,13 +9,34 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz26.h"
+#include "Quiz27.h"
 
 @implementation OCRun
 
++ (struct ListNode*)nodeWithVal: (NSNumber*)val {
+    struct ListNode* node = malloc(sizeof(struct ListNode));
+    node->next = NULL;
+    node->val = [val intValue];
+    return node;
+}
+
++ (struct ListNode*)createNodesWithArray:(NSArray*)array {
+    struct ListNode* head = NULL;
+    struct ListNode* current = NULL;
+    for (NSNumber *num in array) {
+        if (!head) {
+            head = [self nodeWithVal:num];
+            current = head;
+        } else {
+            current->next = [self nodeWithVal:num];
+            current = current->next;
+        }
+    }
+    return head;
+}
+
 + (void)run {
-    int array[] = {1};
-    smallestRangeI(array, 1, 0);
+    mergeTwoLists([self createNodesWithArray:@[@(-9), @(3)]], [self createNodesWithArray:@[@(5), @(7)]]);
 }
 
 @end

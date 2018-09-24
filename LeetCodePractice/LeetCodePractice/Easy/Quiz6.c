@@ -28,11 +28,6 @@
  * };
  */
 
-struct ListNode {
-    int val;
-    struct ListNode *next;
-};
-
 //迭代解法
 struct ListNode* reverseListLoop(struct ListNode* head) {
     
