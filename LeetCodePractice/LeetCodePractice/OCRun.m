@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz31.h"
+#include "LC53.h"
 
 @implementation OCRun
 
@@ -36,7 +36,9 @@
 }
 
 + (void)run {
-    NSLog(@"%s", countAndSay(10));
+    int array[] = {-2,1,-3,4,-1,2,1,-5,4};
+    int result = maxSubArray(array, 9);
+    NSLog(@"%d", result);
 }
 
 @end
