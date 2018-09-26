@@ -48,10 +48,19 @@
         theX /= 10;
         
         //保护接下来的加法不溢出
+        
+        //因为rev要乘以10，所以如果rev大于INT32_MAX/10 则肯定会溢出
+        //比如，如果INT32_MAX为1234，则INT32_MAX/10为123.4，在c语言中，运算值为123。则rev最大只能是123，若是124，则10*rev会溢出
+        
+        //pop的值最大为9，另外一种情况也会溢出，即rev为不会溢出的临界值，比如上面的123，但pop为5，那么和就是1235，z会溢出
         if (rev > INT32_MAX/10 || (rev == INT32_MAX/10 && pop > INT32_MAX%10)) { return 0; }
+        
+        //
         if (rev < INT32_MIN/10 || (rev == INT32_MIN/10 && pop < INT32_MIN%10)) { return 0; }
         
-        int32_t temp = rev * 10 + pop;
+        //rev是返回值
+        int32_t temp = rev * 10; //这样如果rev是12，就变成了120
+        temp = temp + pop;
         rev = temp;
     }
     
@@ -71,3 +80,26 @@
  因为是两个常数，编译器应该会优化掉。
  
  */
+
+
+//提交到leetcode.com的版本 作为存档
+int reverseLeetCode(int x) {
+    
+    int rev = 0;
+    
+    while(x != 0) {
+        
+        int pop = x%10;
+        x /= 10;
+        
+        // 7 == INT32_MAX%10
+        if (rev > INT32_MAX/10 || (rev == INT32_MAX/10 && pop > 7)) { return 0; }
+        
+        // pop < -8 而且pop不可能比-9小 则只能等于-9
+        if (rev < INT32_MIN/10 || (rev == INT32_MIN/10 && pop == -9)) { return 0; }
+        
+        rev = rev*10 + pop;
+    }
+    
+    return rev;
+}

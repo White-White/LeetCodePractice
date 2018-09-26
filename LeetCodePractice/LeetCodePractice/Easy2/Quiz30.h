@@ -1,14 +1,14 @@
 //
-//  Quiz19.h
+//  Quiz30.h
 //  LeetCodePractice
 //
-//  Created by White on 2018/9/12.
+//  Created by White on 2018/9/24.
 //  Copyright © 2018年 White. All rights reserved.
 //
 
-#ifndef Quiz19_h
-#define Quiz19_h
+#ifndef Quiz30_h
+#define Quiz30_h
 
 #include <stdio.h>
 
-#endif /* Quiz19_h */
+#endif /* Quiz30_h */

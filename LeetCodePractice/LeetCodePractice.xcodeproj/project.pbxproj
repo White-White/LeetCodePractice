@@ -26,6 +26,13 @@
 		1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF82147DC4E00B72F64 /* Quiz17.c */; };
 		1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AFB2147EC4600B72F64 /* Quiz18.c */; };
 		1F6E5B022149128800B72F64 /* Quiz19.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5B012149128800B72F64 /* Quiz19.c */; };
+		1F781C4C21573CD200D745D9 /* Quiz24.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C4B21573CD200D745D9 /* Quiz24.c */; };
+		1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C4E2157B3E400D745D9 /* Quiz25.c */; };
+		1F781C522157BD3300D745D9 /* Quiz26.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C512157BD3300D745D9 /* Quiz26.c */; };
+		1F781C552158752A00D745D9 /* Quiz27.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C542158752A00D745D9 /* Quiz27.c */; };
+		1F781C582158B48000D745D9 /* Quiz28.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C572158B48000D745D9 /* Quiz28.c */; };
+		1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C5A2158B68100D745D9 /* Quiz29.c */; };
+		1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C5D2158BBA100D745D9 /* Quiz30.c */; };
 		1F7FAD73214CE4F0007AE55E /* Quiz20.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD72214CE4F0007AE55E /* Quiz20.c */; };
 		1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD75214DF9BD007AE55E /* Quiz21.c */; };
 		1F7FAD79214E2FB5007AE55E /* Quiz22.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD78214E2FB5007AE55E /* Quiz22.c */; };
@@ -81,6 +88,20 @@
 		1F6E5AFB2147EC4600B72F64 /* Quiz18.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz18.c; sourceTree = "<group>"; };
 		1F6E5B002149128800B72F64 /* Quiz19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz19.h; sourceTree = "<group>"; };
 		1F6E5B012149128800B72F64 /* Quiz19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz19.c; sourceTree = "<group>"; };
+		1F781C4A21573CD200D745D9 /* Quiz24.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz24.h; sourceTree = "<group>"; };
+		1F781C4B21573CD200D745D9 /* Quiz24.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz24.c; sourceTree = "<group>"; };
+		1F781C4D2157B3E400D745D9 /* Quiz25.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz25.h; sourceTree = "<group>"; };
+		1F781C4E2157B3E400D745D9 /* Quiz25.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz25.c; sourceTree = "<group>"; };
+		1F781C502157BD3300D745D9 /* Quiz26.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz26.h; sourceTree = "<group>"; };
+		1F781C512157BD3300D745D9 /* Quiz26.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz26.c; sourceTree = "<group>"; };
+		1F781C532158752A00D745D9 /* Quiz27.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz27.h; sourceTree = "<group>"; };
+		1F781C542158752A00D745D9 /* Quiz27.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz27.c; sourceTree = "<group>"; };
+		1F781C562158B48000D745D9 /* Quiz28.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz28.h; sourceTree = "<group>"; };
+		1F781C572158B48000D745D9 /* Quiz28.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz28.c; sourceTree = "<group>"; };
+		1F781C592158B68100D745D9 /* Quiz29.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz29.h; sourceTree = "<group>"; };
+		1F781C5A2158B68100D745D9 /* Quiz29.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz29.c; sourceTree = "<group>"; };
+		1F781C5C2158BBA100D745D9 /* Quiz30.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz30.h; sourceTree = "<group>"; };
+		1F781C5D2158BBA100D745D9 /* Quiz30.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz30.c; sourceTree = "<group>"; };
 		1F7FAD71214CE4F0007AE55E /* Quiz20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz20.h; sourceTree = "<group>"; };
 		1F7FAD72214CE4F0007AE55E /* Quiz20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz20.c; sourceTree = "<group>"; };
 		1F7FAD74214DF9BD007AE55E /* Quiz21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz21.h; sourceTree = "<group>"; };
@@ -156,6 +177,20 @@
 				1F7FAD7B215149DA007AE55E /* Quiz23.h */,
 				1F7FAD7C215149DA007AE55E /* Quiz23.c */,
 				1F7FAD7F21514EB1007AE55E /* Quiz23.swift */,
+				1F781C4A21573CD200D745D9 /* Quiz24.h */,
+				1F781C4B21573CD200D745D9 /* Quiz24.c */,
+				1F781C4D2157B3E400D745D9 /* Quiz25.h */,
+				1F781C4E2157B3E400D745D9 /* Quiz25.c */,
+				1F781C502157BD3300D745D9 /* Quiz26.h */,
+				1F781C512157BD3300D745D9 /* Quiz26.c */,
+				1F781C532158752A00D745D9 /* Quiz27.h */,
+				1F781C542158752A00D745D9 /* Quiz27.c */,
+				1F781C562158B48000D745D9 /* Quiz28.h */,
+				1F781C572158B48000D745D9 /* Quiz28.c */,
+				1F781C592158B68100D745D9 /* Quiz29.h */,
+				1F781C5A2158B68100D745D9 /* Quiz29.c */,
+				1F781C5C2158BBA100D745D9 /* Quiz30.h */,
+				1F781C5D2158BBA100D745D9 /* Quiz30.c */,
 			);
 			path = Easy2;
 			sourceTree = "<group>";
@@ -250,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
+				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
+				1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */,
 				1F2F02D32143CF9000B32E46 /* Quiz8.c in Sources */,
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
@@ -260,10 +297,12 @@
 				1F2F02CF2143B65C00B32E46 /* Quiz6.c in Sources */,
 				1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */,
 				1F2F02CB213BBDB000B32E46 /* OCRun.m in Sources */,
+				1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */,
+				1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */,
 				1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */,
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
@@ -271,9 +310,12 @@
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
+				1F781C4C21573CD200D745D9 /* Quiz24.c in Sources */,
 				1F2F02E4214528EC00B32E46 /* Quiz11.c in Sources */,
 				1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */,
+				1F781C582158B48000D745D9 /* Quiz28.c in Sources */,
 				1F2F02CD2143B5CF00B32E46 /* Quiz5.c in Sources */,
+				1F781C522157BD3300D745D9 /* Quiz26.c in Sources */,
 				1F2F02BD2132643900B32E46 /* day2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

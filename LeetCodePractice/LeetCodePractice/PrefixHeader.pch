@@ -11,6 +11,17 @@
 
 #import <stdlib.h>
 #import <string.h>
+#import <stdbool.h>
+
+#ifndef min
+#define min(a,b) ((a)<(b)?(a):(b))
+#define max(a,b) ((a)<(b)?(b):(a))
+#endif
+
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
