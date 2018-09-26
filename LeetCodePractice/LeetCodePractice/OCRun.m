@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "Quiz27.h"
+#include "Quiz31.h"
 
 @implementation OCRun
 
@@ -36,7 +36,7 @@
 }
 
 + (void)run {
-    mergeTwoLists([self createNodesWithArray:@[@(-9), @(3)]], [self createNodesWithArray:@[@(5), @(7)]]);
+    NSLog(@"%s", countAndSay(10));
 }
 
 @end

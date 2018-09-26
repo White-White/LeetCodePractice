@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
 		1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C7213BBCFB00B32E46 /* Quiz4.m */; };
@@ -55,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F274EA3215BA4520076AAD1 /* Quiz31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz31.h; sourceTree = "<group>"; };
+		1F274EA4215BA4520076AAD1 /* Quiz31.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz31.c; sourceTree = "<group>"; };
 		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
 		1F2F02C02132709200B32E46 /* Day3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day3.h; sourceTree = "<group>"; };
 		1F2F02C3213270CB00B32E46 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
@@ -128,6 +131,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F274EA2215BA43C0076AAD1 /* Easy3 */ = {
+			isa = PBXGroup;
+			children = (
+				1F274EA3215BA4520076AAD1 /* Quiz31.h */,
+				1F274EA4215BA4520076AAD1 /* Quiz31.c */,
+			);
+			path = Easy3;
+			sourceTree = "<group>";
+		};
 		1F6E5AF3214692E400B72F64 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +231,7 @@
 				1F2F02C9213BBDB000B32E46 /* OCRun.h */,
 				1F2F02CA213BBDB000B32E46 /* OCRun.m */,
 				1F7FAD7E21514A98007AE55E /* PrefixHeader.pch */,
+				1F274EA2215BA43C0076AAD1 /* Easy3 */,
 				1F7FAD7A215149B1007AE55E /* Easy2 */,
 				1F6E5AF3214692E400B72F64 /* Easy */,
 				1F2F02C3213270CB00B32E46 /* Bridge.h */,
@@ -310,6 +323,7 @@
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
+				1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */,
 				1F781C4C21573CD200D745D9 /* Quiz24.c in Sources */,
 				1F2F02E4214528EC00B32E46 /* Quiz11.c in Sources */,
 				1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */,
@@ -443,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/white/LeetCodePractice/LeetCodePractice/LeetCodePractice/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeetCodePractice/PrefixHeader.pch";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -463,7 +477,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/white/LeetCodePractice/LeetCodePractice/LeetCodePractice/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeetCodePractice/PrefixHeader.pch";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
