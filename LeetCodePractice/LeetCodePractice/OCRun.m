@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC58.h"
+#include "LC66.h"
 
 @implementation OCRun
 
@@ -35,8 +35,12 @@
     return head;
 }
 
+
+
 + (void)run {
-    lengthOfLastWord("a ");
+    int array[] = {1,2,3};
+    
+    plusOne(array, 3, <#int *returnSize#>)
 }
 
 @end
