@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC66.h"
+#include "LC67.h"
 
 @implementation OCRun
 
@@ -38,9 +38,7 @@
 
 
 + (void)run {
-    int array[] = {1,2,3};
-    
-    plusOne(array, 3, <#int *returnSize#>)
+    NSLog(@"%s", addBinary("11", "1"));
 }
 
 @end
