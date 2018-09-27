@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC53.h"
+#include "LC58.h"
 
 @implementation OCRun
 
@@ -36,9 +36,7 @@
 }
 
 + (void)run {
-    int array[] = {-2,1,-3,4,-1,2,1,-5,4};
-    int result = maxSubArray(array, 9);
-    NSLog(@"%d", result);
+    lengthOfLastWord("a ");
 }
 
 @end

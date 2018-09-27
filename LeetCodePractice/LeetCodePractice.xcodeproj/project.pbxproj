@@ -42,6 +42,7 @@
 		1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7F21514EB1007AE55E /* Quiz23.swift */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
+		1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F26A215CDC4C00DDDF25 /* LC58.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +122,8 @@
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
+		1FC7F269215CDC4C00DDDF25 /* LC58.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC58.h; sourceTree = "<group>"; };
+		1FC7F26A215CDC4C00DDDF25 /* LC58.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC58.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				1F274EA4215BA4520076AAD1 /* Quiz31.c */,
 				1F781C5F215BD0FF00D745D9 /* LC53.h */,
 				1F781C60215BD0FF00D745D9 /* LC53.c */,
+				1FC7F269215CDC4C00DDDF25 /* LC58.h */,
+				1FC7F26A215CDC4C00DDDF25 /* LC58.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
 				1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */,
+				1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */,
 				1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */,
 				1F7FAD73214CE4F0007AE55E /* Quiz20.c in Sources */,
 				1F7FAD79214E2FB5007AE55E /* Quiz22.c in Sources */,
