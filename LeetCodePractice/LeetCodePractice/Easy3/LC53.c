@@ -17,39 +17,20 @@
 
 #include "LC53.h"
 
-
+/*
+ 这道题完全没想出来 最后学到了Kadane算法 专门用来算最大子数组的
+ */
 
 int maxSubArray(int* nums, int numsSize) {
-    int* currentSum = NULL;
     
-    if (numsSize == 0) { return 0; }
+    int currentSum = nums[0];
+    int endUpSum = currentSum;
     
-    for (int i = 0; i < numsSize; i++) {
-        int loopNum = nums[i];
-        
-        if (currentSum == NULL) {
-            currentSum = nums+i;
-            continue;
-        }
-        
-        if (*currentSum < 0) {
-            
-            if (loopNum < 0) {
-                *currentSum = max(loopNum, *currentSum);
-            } else {
-                *currentSum = loopNum;
-            }
-            
-        } else { // currentSum >= 0
-            if (loopNum < 0) {
-                int sumOfNextSeg = maxSubArray(nums+i, numsSize - i);
-                return max(sumOfNextSeg, 0) + *currentSum;
-            } else {
-                *currentSum = *currentSum + loopNum;
-            }
-        }
+    for (int i = 1; i < numsSize; i++) {
+        currentSum = max(nums[i], nums[i] + currentSum);
+        endUpSum = max(currentSum, endUpSum);
     }
     
-    return *currentSum;
+    return endUpSum;
 }
 
