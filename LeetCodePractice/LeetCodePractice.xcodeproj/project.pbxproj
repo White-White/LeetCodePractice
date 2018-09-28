@@ -51,6 +51,8 @@
 		1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F27C215DFC0A00DDDF25 /* LC83.c */; };
 		1FC7F281215DFF8A00DDDF25 /* LC100.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F280215DFF8A00DDDF25 /* LC100.c */; };
 		1FC7F284215E07A200DDDF25 /* LC101.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F283215E07A200DDDF25 /* LC101.c */; };
+		1FC7F28A215E105F00DDDF25 /* LC111.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F289215E105F00DDDF25 /* LC111.c */; };
+		1FC7F28D215E113900DDDF25 /* CommonStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F28C215E113900DDDF25 /* CommonStack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +151,10 @@
 		1FC7F280215DFF8A00DDDF25 /* LC100.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC100.c; sourceTree = "<group>"; };
 		1FC7F282215E07A200DDDF25 /* LC101.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC101.h; sourceTree = "<group>"; };
 		1FC7F283215E07A200DDDF25 /* LC101.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC101.c; sourceTree = "<group>"; };
+		1FC7F288215E105F00DDDF25 /* LC111.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC111.h; sourceTree = "<group>"; };
+		1FC7F289215E105F00DDDF25 /* LC111.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC111.c; sourceTree = "<group>"; };
+		1FC7F28B215E113900DDDF25 /* CommonStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonStack.h; sourceTree = "<group>"; };
+		1FC7F28C215E113900DDDF25 /* CommonStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CommonStack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +193,8 @@
 				1FC7F280215DFF8A00DDDF25 /* LC100.c */,
 				1FC7F282215E07A200DDDF25 /* LC101.h */,
 				1FC7F283215E07A200DDDF25 /* LC101.c */,
+				1FC7F288215E105F00DDDF25 /* LC111.h */,
+				1FC7F289215E105F00DDDF25 /* LC111.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -282,6 +290,8 @@
 				1F2F02DD2144B9CB00B32E46 /* swiftHelper.swift */,
 				1F2F02C9213BBDB000B32E46 /* OCRun.h */,
 				1F2F02CA213BBDB000B32E46 /* OCRun.m */,
+				1FC7F28B215E113900DDDF25 /* CommonStack.h */,
+				1FC7F28C215E113900DDDF25 /* CommonStack.c */,
 				1F7FAD7E21514A98007AE55E /* PrefixHeader.pch */,
 				1F274EA2215BA43C0076AAD1 /* Easy3 */,
 				1F7FAD7A215149B1007AE55E /* Easy2 */,
@@ -358,6 +368,7 @@
 				1FC7F26E215CDF9D00DDDF25 /* LC66.c in Sources */,
 				1FC7F271215CECCA00DDDF25 /* LC67.c in Sources */,
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
+				1FC7F28A215E105F00DDDF25 /* LC111.c in Sources */,
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
 				1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */,
 				1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */,
@@ -369,6 +380,7 @@
 				1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */,
 				1FC7F277215DD52D00DDDF25 /* LC3.c in Sources */,
 				1F2F02CB213BBDB000B32E46 /* OCRun.m in Sources */,
+				1FC7F28D215E113900DDDF25 /* CommonStack.c in Sources */,
 				1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,

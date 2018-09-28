@@ -12,6 +12,7 @@
 #import <stdlib.h>
 #import <string.h>
 #import <stdbool.h>
+#include "CommonStack.h"
 
 #ifndef min
 #define min(a,b) ((a)<(b)?(a):(b))
