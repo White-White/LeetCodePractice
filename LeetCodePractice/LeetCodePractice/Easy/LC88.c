@@ -16,7 +16,7 @@
  */
 
 
-#include <stdio.h>
+#include "LC88.h"
 
 //解法1
 int insert(int num, int* toArray, int arrayLength) {
@@ -91,7 +91,7 @@ void merge3(int* nums1, int m, int* nums2, int n) {
     int j = n - 1;
     
     //当j循环完毕后 可以认为数组已完全排序
-    while (j > 0) {
+    while (j >= 0) {
         nums1[k--] = ((i >= 0) && (nums1[i] > nums2[j])) ? nums1[i--] : nums2[j--];
     }
 }

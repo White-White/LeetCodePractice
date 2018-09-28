@@ -15,7 +15,7 @@
 		1F2F02CD2143B5CF00B32E46 /* Quiz5.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02CC2143B5CF00B32E46 /* Quiz5.c */; };
 		1F2F02CF2143B65C00B32E46 /* Quiz6.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02CE2143B65C00B32E46 /* Quiz6.c */; };
 		1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02D02143CB1B00B32E46 /* Quiz7.c */; };
-		1F2F02D32143CF9000B32E46 /* Quiz8.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02D22143CF9000B32E46 /* Quiz8.c */; };
+		1F2F02D32143CF9000B32E46 /* LC88.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02D22143CF9000B32E46 /* LC88.c */; };
 		1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02DB2143E85D00B32E46 /* Quiz9.c */; };
 		1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02DD2144B9CB00B32E46 /* swiftHelper.swift */; };
 		1F2F02E12145258800B32E46 /* Quiz10.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02E02145258800B32E46 /* Quiz10.c */; };
@@ -77,7 +77,7 @@
 		1F2F02CC2143B5CF00B32E46 /* Quiz5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz5.c; sourceTree = "<group>"; };
 		1F2F02CE2143B65C00B32E46 /* Quiz6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz6.c; sourceTree = "<group>"; };
 		1F2F02D02143CB1B00B32E46 /* Quiz7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz7.c; sourceTree = "<group>"; };
-		1F2F02D22143CF9000B32E46 /* Quiz8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz8.c; sourceTree = "<group>"; };
+		1F2F02D22143CF9000B32E46 /* LC88.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC88.c; sourceTree = "<group>"; };
 		1F2F02DA2143E85D00B32E46 /* Quiz9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz9.h; sourceTree = "<group>"; };
 		1F2F02DB2143E85D00B32E46 /* Quiz9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz9.c; sourceTree = "<group>"; };
 		1F2F02DD2144B9CB00B32E46 /* swiftHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftHelper.swift; sourceTree = "<group>"; };
@@ -142,6 +142,7 @@
 		1FC7F279215DDB8F00DDDF25 /* LC70.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC70.c; sourceTree = "<group>"; };
 		1FC7F27B215DFC0A00DDDF25 /* LC83.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC83.h; sourceTree = "<group>"; };
 		1FC7F27C215DFC0A00DDDF25 /* LC83.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC83.c; sourceTree = "<group>"; };
+		1FC7F27E215DFF1C00DDDF25 /* LC88.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC88.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +193,8 @@
 				1F2F02CC2143B5CF00B32E46 /* Quiz5.c */,
 				1F2F02CE2143B65C00B32E46 /* Quiz6.c */,
 				1F2F02D02143CB1B00B32E46 /* Quiz7.c */,
-				1F2F02D22143CF9000B32E46 /* Quiz8.c */,
+				1FC7F27E215DFF1C00DDDF25 /* LC88.h */,
+				1F2F02D22143CF9000B32E46 /* LC88.c */,
 				1F2F02DA2143E85D00B32E46 /* Quiz9.h */,
 				1F2F02DB2143E85D00B32E46 /* Quiz9.c */,
 				1F2F02DF2145258800B32E46 /* Quiz10.h */,
@@ -340,7 +342,7 @@
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
 				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
 				1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */,
-				1F2F02D32143CF9000B32E46 /* Quiz8.c in Sources */,
+				1F2F02D32143CF9000B32E46 /* LC88.c in Sources */,
 				1FC7F26E215CDF9D00DDDF25 /* LC66.c in Sources */,
 				1FC7F271215CECCA00DDDF25 /* LC67.c in Sources */,
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
