@@ -24,16 +24,14 @@
 
 // Definition for a binary tree node.
 
-struct TreeNode {
-    int val;
-    struct TreeNode *left;
-    struct TreeNode *right;
-};
-
 int maxDepth(struct TreeNode* root) {
     if (!root) return 0;
     return 1 + max(maxDepth(root->left), maxDepth(root->right));
+    
+    //leetCode居然提示这个c版本超过时间限制 只好用同样递归的ruby提交
 }
+
+
 
 
 
