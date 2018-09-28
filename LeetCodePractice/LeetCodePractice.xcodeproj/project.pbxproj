@@ -50,6 +50,7 @@
 		1FC7F27A215DDB8F00DDDF25 /* LC70.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F279215DDB8F00DDDF25 /* LC70.c */; };
 		1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F27C215DFC0A00DDDF25 /* LC83.c */; };
 		1FC7F281215DFF8A00DDDF25 /* LC100.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F280215DFF8A00DDDF25 /* LC100.c */; };
+		1FC7F284215E07A200DDDF25 /* LC101.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F283215E07A200DDDF25 /* LC101.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,6 +147,8 @@
 		1FC7F27E215DFF1C00DDDF25 /* LC88.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC88.h; sourceTree = "<group>"; };
 		1FC7F27F215DFF8A00DDDF25 /* LC100.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC100.h; sourceTree = "<group>"; };
 		1FC7F280215DFF8A00DDDF25 /* LC100.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC100.c; sourceTree = "<group>"; };
+		1FC7F282215E07A200DDDF25 /* LC101.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC101.h; sourceTree = "<group>"; };
+		1FC7F283215E07A200DDDF25 /* LC101.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC101.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +185,8 @@
 				1FC7F27C215DFC0A00DDDF25 /* LC83.c */,
 				1FC7F27F215DFF8A00DDDF25 /* LC100.h */,
 				1FC7F280215DFF8A00DDDF25 /* LC100.c */,
+				1FC7F282215E07A200DDDF25 /* LC101.h */,
+				1FC7F283215E07A200DDDF25 /* LC101.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC7F281215DFF8A00DDDF25 /* LC100.c in Sources */,
+				1FC7F284215E07A200DDDF25 /* LC101.c in Sources */,
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
 				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
 				1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */,
