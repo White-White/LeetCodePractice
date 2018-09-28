@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC3.h"
+#include "LC70.h"
 
 @implementation OCRun
 
@@ -38,7 +38,7 @@
 
 
 + (void)run {
-    NSLog(@"%d", lengthOfLongestSubstring("dvdf"));
+    NSLog(@"%d", climbStairs(3));
 }
 
 @end

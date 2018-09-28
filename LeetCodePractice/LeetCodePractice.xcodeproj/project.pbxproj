@@ -47,6 +47,7 @@
 		1FC7F271215CECCA00DDDF25 /* LC67.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F270215CECCA00DDDF25 /* LC67.c */; };
 		1FC7F274215CF6EB00DDDF25 /* LC69.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F273215CF6EB00DDDF25 /* LC69.c */; };
 		1FC7F277215DD52D00DDDF25 /* LC3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F276215DD52D00DDDF25 /* LC3.c */; };
+		1FC7F27A215DDB8F00DDDF25 /* LC70.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F279215DDB8F00DDDF25 /* LC70.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -136,6 +137,8 @@
 		1FC7F273215CF6EB00DDDF25 /* LC69.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC69.c; sourceTree = "<group>"; };
 		1FC7F275215DD52D00DDDF25 /* LC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC3.h; sourceTree = "<group>"; };
 		1FC7F276215DD52D00DDDF25 /* LC3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC3.c; sourceTree = "<group>"; };
+		1FC7F278215DDB8F00DDDF25 /* LC70.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC70.h; sourceTree = "<group>"; };
+		1FC7F279215DDB8F00DDDF25 /* LC70.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC70.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				1FC7F273215CF6EB00DDDF25 /* LC69.c */,
 				1FC7F275215DD52D00DDDF25 /* LC3.h */,
 				1FC7F276215DD52D00DDDF25 /* LC3.c */,
+				1FC7F278215DDB8F00DDDF25 /* LC70.h */,
+				1FC7F279215DDB8F00DDDF25 /* LC70.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -360,6 +365,7 @@
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
 				1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */,
+				1FC7F27A215DDB8F00DDDF25 /* LC70.c in Sources */,
 				1F781C4C21573CD200D745D9 /* Quiz24.c in Sources */,
 				1F2F02E4214528EC00B32E46 /* Quiz11.c in Sources */,
 				1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */,
