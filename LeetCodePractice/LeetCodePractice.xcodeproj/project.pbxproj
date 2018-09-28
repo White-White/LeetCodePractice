@@ -45,6 +45,8 @@
 		1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F26A215CDC4C00DDDF25 /* LC58.c */; };
 		1FC7F26E215CDF9D00DDDF25 /* LC66.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F26D215CDF9D00DDDF25 /* LC66.c */; };
 		1FC7F271215CECCA00DDDF25 /* LC67.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F270215CECCA00DDDF25 /* LC67.c */; };
+		1FC7F274215CF6EB00DDDF25 /* LC69.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F273215CF6EB00DDDF25 /* LC69.c */; };
+		1FC7F277215DD52D00DDDF25 /* LC3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F276215DD52D00DDDF25 /* LC3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,6 +132,10 @@
 		1FC7F26D215CDF9D00DDDF25 /* LC66.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC66.c; sourceTree = "<group>"; };
 		1FC7F26F215CECCA00DDDF25 /* LC67.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC67.h; sourceTree = "<group>"; };
 		1FC7F270215CECCA00DDDF25 /* LC67.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC67.c; sourceTree = "<group>"; };
+		1FC7F272215CF6EB00DDDF25 /* LC69.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC69.h; sourceTree = "<group>"; };
+		1FC7F273215CF6EB00DDDF25 /* LC69.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC69.c; sourceTree = "<group>"; };
+		1FC7F275215DD52D00DDDF25 /* LC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC3.h; sourceTree = "<group>"; };
+		1FC7F276215DD52D00DDDF25 /* LC3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC3.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 				1FC7F26D215CDF9D00DDDF25 /* LC66.c */,
 				1FC7F26F215CECCA00DDDF25 /* LC67.h */,
 				1FC7F270215CECCA00DDDF25 /* LC67.c */,
+				1FC7F272215CF6EB00DDDF25 /* LC69.h */,
+				1FC7F273215CF6EB00DDDF25 /* LC69.c */,
+				1FC7F275215DD52D00DDDF25 /* LC3.h */,
+				1FC7F276215DD52D00DDDF25 /* LC3.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -330,8 +340,10 @@
 				1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */,
 				1F7FAD73214CE4F0007AE55E /* Quiz20.c in Sources */,
 				1F7FAD79214E2FB5007AE55E /* Quiz22.c in Sources */,
+				1FC7F274215CF6EB00DDDF25 /* LC69.c in Sources */,
 				1F2F02CF2143B65C00B32E46 /* Quiz6.c in Sources */,
 				1F2F02DC2143E85D00B32E46 /* Quiz9.c in Sources */,
+				1FC7F277215DD52D00DDDF25 /* LC3.c in Sources */,
 				1F2F02CB213BBDB000B32E46 /* OCRun.m in Sources */,
 				1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,

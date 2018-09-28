@@ -70,7 +70,7 @@ int minStackGetMin(MinStack* obj) {
         int lastMinValue = *(obj->val+lastMinValueIndex);
         return lastMinValue;
     } else {
-        return NULL; //fatalError()
+        exit(1); //fatalError()
     }
 }
 
