@@ -33,4 +33,39 @@ int climbStairs(int n) {
             return climbStairs(n-1) + climbStairs(n-2);
         }
     }
+    
+    //耗时太久
+}
+
+//动态规划一下
+int climbStairsDP(int n) {
+    int dp[n+1];
+    dp[1] = 1;
+    dp[2] = 2;
+    for (int i = 3; i <= n; i++) {
+        dp[i] = dp[i-1] + dp[i-2];
+    }
+    return dp[n];
+}
+
+
+//动态规划省内存版本
+int climbStairsDPBetter(int n) {
+    int first = 1;
+    int second = 2;
+    
+    switch (n) {
+        case 1:
+            return first;
+        case 2:
+            return second;
+        default: {
+            for (int i = 3; i <= n; i++) {
+                int third = first + second;
+                first = second;
+                second = third;
+            }
+            return second;
+        }
+    }
 }

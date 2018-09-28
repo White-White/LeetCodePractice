@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 int climbStairs(int n);
+int climbStairsDP(int n);
+int climbStairsDPBetter(int n);
 #endif /* LC70_h */

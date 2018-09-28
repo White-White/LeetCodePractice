@@ -48,6 +48,7 @@
 		1FC7F274215CF6EB00DDDF25 /* LC69.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F273215CF6EB00DDDF25 /* LC69.c */; };
 		1FC7F277215DD52D00DDDF25 /* LC3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F276215DD52D00DDDF25 /* LC3.c */; };
 		1FC7F27A215DDB8F00DDDF25 /* LC70.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F279215DDB8F00DDDF25 /* LC70.c */; };
+		1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F27C215DFC0A00DDDF25 /* LC83.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,6 +140,8 @@
 		1FC7F276215DD52D00DDDF25 /* LC3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC3.c; sourceTree = "<group>"; };
 		1FC7F278215DDB8F00DDDF25 /* LC70.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC70.h; sourceTree = "<group>"; };
 		1FC7F279215DDB8F00DDDF25 /* LC70.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC70.c; sourceTree = "<group>"; };
+		1FC7F27B215DFC0A00DDDF25 /* LC83.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC83.h; sourceTree = "<group>"; };
+		1FC7F27C215DFC0A00DDDF25 /* LC83.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC83.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				1FC7F276215DD52D00DDDF25 /* LC3.c */,
 				1FC7F278215DDB8F00DDDF25 /* LC70.h */,
 				1FC7F279215DDB8F00DDDF25 /* LC70.c */,
+				1FC7F27B215DFC0A00DDDF25 /* LC83.h */,
+				1FC7F27C215DFC0A00DDDF25 /* LC83.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 				1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
+				1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */,
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */,
 				1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */,

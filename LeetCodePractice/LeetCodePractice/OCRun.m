@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC70.h"
+#include "LC83.h"
 
 @implementation OCRun
 
@@ -38,7 +38,7 @@
 
 
 + (void)run {
-    NSLog(@"%d", climbStairs(3));
+    deleteDuplicates([self createNodesWithArray:@[@(1),@(1),@(1)]]);
 }
 
 @end
