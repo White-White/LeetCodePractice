@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B5EE7215F2AF900CF63E3 /* LC110.c */; };
 		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
@@ -68,6 +69,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F0B5EE6215F2AF900CF63E3 /* LC110.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC110.h; sourceTree = "<group>"; };
+		1F0B5EE7215F2AF900CF63E3 /* LC110.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC110.c; sourceTree = "<group>"; };
+		1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz7.h; sourceTree = "<group>"; };
 		1F274EA3215BA4520076AAD1 /* Quiz31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz31.h; sourceTree = "<group>"; };
 		1F274EA4215BA4520076AAD1 /* Quiz31.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz31.c; sourceTree = "<group>"; };
 		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				1FC7F283215E07A200DDDF25 /* LC101.c */,
 				1FC7F288215E105F00DDDF25 /* LC111.h */,
 				1FC7F289215E105F00DDDF25 /* LC111.c */,
+				1F0B5EE6215F2AF900CF63E3 /* LC110.h */,
+				1F0B5EE7215F2AF900CF63E3 /* LC110.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 				1F2F02C7213BBCFB00B32E46 /* Quiz4.m */,
 				1F2F02CC2143B5CF00B32E46 /* Quiz5.c */,
 				1F2F02CE2143B65C00B32E46 /* Quiz6.c */,
+				1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */,
 				1F2F02D02143CB1B00B32E46 /* Quiz7.c */,
 				1FC7F27E215DFF1C00DDDF25 /* LC88.h */,
 				1F2F02D22143CF9000B32E46 /* LC88.c */,
@@ -384,6 +391,7 @@
 				1F781C5B2158B68100D745D9 /* Quiz29.c in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
+				1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */,
 				1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */,
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */,
