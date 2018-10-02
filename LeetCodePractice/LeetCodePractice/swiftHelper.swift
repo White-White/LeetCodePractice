@@ -15,3 +15,4 @@ func createUnsafeMutablePointer<T>(with array: [T]) -> UnsafeMutablePointer<T> {
     }
     return pointer
 }
+
