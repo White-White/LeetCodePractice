@@ -142,8 +142,6 @@ int** levelOrderBottom(struct TreeNode* root, int** columnSizes, int* returnSize
         nextLevelNodes = nextLevel(nextLevelNodes, size, &size);
     }
     
-    
-    
     *columnSizes = reverseArray(retColumnSizes, retLengthUsed);
     ret = reverseArrayOfArray(ret, retLengthUsed);
     *returnSize = retLengthUsed;
