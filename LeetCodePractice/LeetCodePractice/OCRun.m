@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC110.h"
+#include "LC107.h"
 
 @implementation OCRun
 
@@ -86,8 +86,9 @@
     for (int i = 0; i < 7; i++) {
         finalBuf[i] = buf[i] == 0 ? NULL : &(buf[i]);
     }
-    bool isBalancedA = isBalanced([self createTreeWith:finalBuf length:7]);
-    printf("%s", isBalancedA ? "yes" : "no");
+    int* columnSizes;
+    int returnSize;
+    levelOrderBottom([self createTreeWith:finalBuf length:7], &columnSizes, &returnSize);
 }
 
 @end

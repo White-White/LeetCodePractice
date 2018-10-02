@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F00257521632FB4006F4AB4 /* LC108.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00257421632FB4006F4AB4 /* LC108.c */; };
+		1F0025782163338F006F4AB4 /* LC107.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0025772163338F006F4AB4 /* LC107.c */; };
 		1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B5EE7215F2AF900CF63E3 /* LC110.c */; };
 		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
@@ -72,6 +73,8 @@
 /* Begin PBXFileReference section */
 		1F00257321632FB4006F4AB4 /* LC108.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC108.h; sourceTree = "<group>"; };
 		1F00257421632FB4006F4AB4 /* LC108.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC108.c; sourceTree = "<group>"; };
+		1F0025762163338F006F4AB4 /* LC107.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC107.h; sourceTree = "<group>"; };
+		1F0025772163338F006F4AB4 /* LC107.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC107.c; sourceTree = "<group>"; };
 		1F0B5EE6215F2AF900CF63E3 /* LC110.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC110.h; sourceTree = "<group>"; };
 		1F0B5EE7215F2AF900CF63E3 /* LC110.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC110.c; sourceTree = "<group>"; };
 		1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz7.h; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 				1F0B5EE7215F2AF900CF63E3 /* LC110.c */,
 				1F00257321632FB4006F4AB4 /* LC108.h */,
 				1F00257421632FB4006F4AB4 /* LC108.c */,
+				1F0025762163338F006F4AB4 /* LC107.h */,
+				1F0025772163338F006F4AB4 /* LC107.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
+				1F0025782163338F006F4AB4 /* LC107.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
 				1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */,
 				1FC7F27A215DDB8F00DDDF25 /* LC70.c in Sources */,
