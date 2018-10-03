@@ -12,6 +12,7 @@
 		1F00257A21634EF3006F4AB4 /* LC107.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00257921634EF3006F4AB4 /* LC107.swift */; };
 		1F00257C21634F15006F4AB4 /* swiftDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00257B21634F15006F4AB4 /* swiftDefines.swift */; };
 		1F00257F21646828006F4AB4 /* LC112.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00257E21646828006F4AB4 /* LC112.c */; };
+		1F00258221648D18006F4AB4 /* LC119.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258121648D18006F4AB4 /* LC119.c */; };
 		1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B5EE7215F2AF900CF63E3 /* LC110.c */; };
 		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
@@ -82,6 +83,8 @@
 		1F00257B21634F15006F4AB4 /* swiftDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftDefines.swift; sourceTree = "<group>"; };
 		1F00257D21646828006F4AB4 /* LC112.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC112.h; sourceTree = "<group>"; };
 		1F00257E21646828006F4AB4 /* LC112.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC112.c; sourceTree = "<group>"; };
+		1F00258021648D18006F4AB4 /* LC119.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC119.h; sourceTree = "<group>"; };
+		1F00258121648D18006F4AB4 /* LC119.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC119.c; sourceTree = "<group>"; };
 		1F0B5EE6215F2AF900CF63E3 /* LC110.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC110.h; sourceTree = "<group>"; };
 		1F0B5EE7215F2AF900CF63E3 /* LC110.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC110.c; sourceTree = "<group>"; };
 		1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz7.h; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				1F00257921634EF3006F4AB4 /* LC107.swift */,
 				1F00257D21646828006F4AB4 /* LC112.h */,
 				1F00257E21646828006F4AB4 /* LC112.c */,
+				1F00258021648D18006F4AB4 /* LC119.h */,
+				1F00258121648D18006F4AB4 /* LC119.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
 				1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */,
+				1F00258221648D18006F4AB4 /* LC119.c in Sources */,
 				1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */,
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1F2F02ED2145372500B32E46 /* Quiz15.c in Sources */,

@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC112.h"
+#include "LC119.h"
 
 @implementation OCRun
 
@@ -79,13 +79,8 @@
 }
 
 + (void)run {
-    int buf[] = {1,-2,-3,1,3,-2,0,-1};
-    int* finalBuf[8];
-    for (int i = 0; i < 8; i++) {
-        finalBuf[i] = buf[i] == 0 ? NULL : &(buf[i]);
-    }
-    
-    hasPathSum([self createTreeWith:finalBuf length:8], -1);
+    int i;
+    getRowSafe(3, &i);
 }
 
 @end
