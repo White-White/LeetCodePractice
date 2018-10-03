@@ -73,5 +73,12 @@
     return 0;
 }
 
++ (int)singleNumberv3:(int *)nums numsSize:(int)numsSize {
+    int start = 0;
+    for (int i = 0; i < numsSize; i++) {
+        start ^= nums[i];
+    }
+    return start;
+}
 
 @end
