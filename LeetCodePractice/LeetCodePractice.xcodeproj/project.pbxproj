@@ -16,6 +16,7 @@
 		1F0025852164977F006F4AB4 /* LC121.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0025842164977F006F4AB4 /* LC121.c */; };
 		1F00258821649B56006F4AB4 /* LC122.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258721649B56006F4AB4 /* LC122.c */; };
 		1F00258B21649D26006F4AB4 /* LC125.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258A21649D26006F4AB4 /* LC125.c */; };
+		1F00258E2164A6C2006F4AB4 /* LC141.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258D2164A6C2006F4AB4 /* LC141.c */; };
 		1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B5EE7215F2AF900CF63E3 /* LC110.c */; };
 		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
@@ -94,6 +95,8 @@
 		1F00258721649B56006F4AB4 /* LC122.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC122.c; sourceTree = "<group>"; };
 		1F00258921649D26006F4AB4 /* LC125.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC125.h; sourceTree = "<group>"; };
 		1F00258A21649D26006F4AB4 /* LC125.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC125.c; sourceTree = "<group>"; };
+		1F00258C2164A6C2006F4AB4 /* LC141.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC141.h; sourceTree = "<group>"; };
+		1F00258D2164A6C2006F4AB4 /* LC141.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC141.c; sourceTree = "<group>"; };
 		1F0B5EE6215F2AF900CF63E3 /* LC110.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC110.h; sourceTree = "<group>"; };
 		1F0B5EE7215F2AF900CF63E3 /* LC110.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC110.c; sourceTree = "<group>"; };
 		1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz7.h; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				1F00258721649B56006F4AB4 /* LC122.c */,
 				1F00258921649D26006F4AB4 /* LC125.h */,
 				1F00258A21649D26006F4AB4 /* LC125.c */,
+				1F00258C2164A6C2006F4AB4 /* LC141.h */,
+				1F00258D2164A6C2006F4AB4 /* LC141.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				1F00257521632FB4006F4AB4 /* LC108.c in Sources */,
 				1FC7F281215DFF8A00DDDF25 /* LC100.c in Sources */,
 				1FC7F284215E07A200DDDF25 /* LC101.c in Sources */,
+				1F00258E2164A6C2006F4AB4 /* LC141.c in Sources */,
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
 				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
 				1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */,
