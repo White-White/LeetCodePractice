@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC119.h"
+#include "LC122.h"
 
 @implementation OCRun
 
@@ -79,8 +79,8 @@
 }
 
 + (void)run {
-    int i;
-    getRowSafe(3, &i);
+    int array[] = {7,1,5,3,6,4};
+    maxProfit2(array, 6);
 }
 
 @end
