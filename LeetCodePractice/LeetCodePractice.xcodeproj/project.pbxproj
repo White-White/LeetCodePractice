@@ -65,6 +65,8 @@
 		1FC7F28A215E105F00DDDF25 /* LC111.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F289215E105F00DDDF25 /* LC111.c */; };
 		1FC7F28D215E113900DDDF25 /* CommonStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F28C215E113900DDDF25 /* CommonStack.c */; };
 		1FE2B954216AFFEA0022C06D /* LC155.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B953216AFFEA0022C06D /* LC155.c */; };
+		1FE2B957216B2C7F0022C06D /* LC160.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B956216B2C7F0022C06D /* LC160.c */; };
+		1FE2B95A216B34160022C06D /* LC167.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B959216B34160022C06D /* LC167.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,6 +192,10 @@
 		1FC7F28C215E113900DDDF25 /* CommonStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CommonStack.c; sourceTree = "<group>"; };
 		1FE2B952216AFFEA0022C06D /* LC155.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC155.h; sourceTree = "<group>"; };
 		1FE2B953216AFFEA0022C06D /* LC155.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC155.c; sourceTree = "<group>"; };
+		1FE2B955216B2C7F0022C06D /* LC160.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC160.h; sourceTree = "<group>"; };
+		1FE2B956216B2C7F0022C06D /* LC160.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC160.c; sourceTree = "<group>"; };
+		1FE2B958216B34160022C06D /* LC167.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC167.h; sourceTree = "<group>"; };
+		1FE2B959216B34160022C06D /* LC167.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC167.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +257,10 @@
 				1F00258D2164A6C2006F4AB4 /* LC141.c */,
 				1FE2B952216AFFEA0022C06D /* LC155.h */,
 				1FE2B953216AFFEA0022C06D /* LC155.c */,
+				1FE2B955216B2C7F0022C06D /* LC160.h */,
+				1FE2B956216B2C7F0022C06D /* LC160.c */,
+				1FE2B958216B34160022C06D /* LC167.h */,
+				1FE2B959216B34160022C06D /* LC167.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -429,6 +439,7 @@
 				1FC7F26E215CDF9D00DDDF25 /* LC66.c in Sources */,
 				1FC7F271215CECCA00DDDF25 /* LC67.c in Sources */,
 				1F00257A21634EF3006F4AB4 /* LC107.swift in Sources */,
+				1FE2B957216B2C7F0022C06D /* LC160.c in Sources */,
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
 				1FC7F28A215E105F00DDDF25 /* LC111.c in Sources */,
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
@@ -461,6 +472,7 @@
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
+				1FE2B95A216B34160022C06D /* LC167.c in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F00258821649B56006F4AB4 /* LC122.c in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
