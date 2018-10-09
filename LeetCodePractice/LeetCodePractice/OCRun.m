@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC383.h"
+#include "LC387.h"
 
 @implementation OCRun
 
@@ -79,10 +79,7 @@
 }
 
 + (void)run {
-    
-    
-    
-    canConstruct("", "");
+    firstUniqChar("dacca");
 }
 
 @end

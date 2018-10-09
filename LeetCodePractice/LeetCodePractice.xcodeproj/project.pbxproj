@@ -68,6 +68,7 @@
 		1FE2B95A216B34160022C06D /* LC167.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B959216B34160022C06D /* LC167.c */; };
 		1FE2B95D216C50D20022C06D /* LC345.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B95C216C50D20022C06D /* LC345.c */; };
 		1FE2B960216C53DE0022C06D /* LC383.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B95F216C53DE0022C06D /* LC383.c */; };
+		1FE2B963216C61170022C06D /* LC387.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B962216C61170022C06D /* LC387.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,6 +202,8 @@
 		1FE2B95C216C50D20022C06D /* LC345.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC345.c; sourceTree = "<group>"; };
 		1FE2B95E216C53DE0022C06D /* LC383.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC383.h; sourceTree = "<group>"; };
 		1FE2B95F216C53DE0022C06D /* LC383.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC383.c; sourceTree = "<group>"; };
+		1FE2B961216C61170022C06D /* LC387.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC387.h; sourceTree = "<group>"; };
+		1FE2B962216C61170022C06D /* LC387.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC387.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +273,8 @@
 				1FE2B95C216C50D20022C06D /* LC345.c */,
 				1FE2B95E216C53DE0022C06D /* LC383.h */,
 				1FE2B95F216C53DE0022C06D /* LC383.c */,
+				1FE2B961216C61170022C06D /* LC387.h */,
+				1FE2B962216C61170022C06D /* LC387.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -485,6 +490,7 @@
 				1FE2B95A216B34160022C06D /* LC167.c in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F00258821649B56006F4AB4 /* LC122.c in Sources */,
+				1FE2B963216C61170022C06D /* LC387.c in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F0025782163338F006F4AB4 /* LC107.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,
