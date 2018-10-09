@@ -21,6 +21,13 @@
 #include "Quiz20.h"
 #include <stdlib.h>
 
+typedef struct {
+    int* val;
+    int* minValueIndex;
+    int currentSize;
+    int maxSize;
+} MinStack;
+
 /** initialize your data structure here. */
 MinStack* minStackCreate(int maxSize) {
     MinStack* stack = malloc(sizeof(MinStack));

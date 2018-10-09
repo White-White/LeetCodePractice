@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC125.h"
+#include "LC383.h"
 
 @implementation OCRun
 
@@ -79,8 +79,10 @@
 }
 
 + (void)run {
-    char* c = "\"Sue,\" Tom smiles, \"Selim smote us.\"";
-    isPalindromeC(c);
+    
+    
+    
+    canConstruct("", "");
 }
 
 @end

@@ -18,7 +18,7 @@
 
 #include "LC167.h"
 
-int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
+int* twoSum2(int* numbers, int numbersSize, int target, int* returnSize) {
     
     int* ret = malloc(sizeof(int)*2);
     *returnSize = 2;
