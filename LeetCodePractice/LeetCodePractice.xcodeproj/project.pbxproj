@@ -19,6 +19,8 @@
 		1F00258E2164A6C2006F4AB4 /* LC141.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258D2164A6C2006F4AB4 /* LC141.c */; };
 		1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B5EE7215F2AF900CF63E3 /* LC110.c */; };
 		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
+		1F279B57216D9E9A007E9054 /* LC169.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F279B56216D9E9A007E9054 /* LC169.c */; };
+		1F279B5A216DBA32007E9054 /* LC217.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F279B59216DBA32007E9054 /* LC217.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
 		1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C7213BBCFB00B32E46 /* Quiz4.m */; };
@@ -108,6 +110,10 @@
 		1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz7.h; sourceTree = "<group>"; };
 		1F274EA3215BA4520076AAD1 /* Quiz31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz31.h; sourceTree = "<group>"; };
 		1F274EA4215BA4520076AAD1 /* Quiz31.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz31.c; sourceTree = "<group>"; };
+		1F279B55216D9E9A007E9054 /* LC169.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC169.h; sourceTree = "<group>"; };
+		1F279B56216D9E9A007E9054 /* LC169.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC169.c; sourceTree = "<group>"; };
+		1F279B58216DBA32007E9054 /* LC217.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC217.h; sourceTree = "<group>"; };
+		1F279B59216DBA32007E9054 /* LC217.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC217.c; sourceTree = "<group>"; };
 		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
 		1F2F02C02132709200B32E46 /* Day3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day3.h; sourceTree = "<group>"; };
 		1F2F02C3213270CB00B32E46 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
@@ -280,6 +286,10 @@
 				1FE2B962216C61170022C06D /* LC387.c */,
 				1FE2B964216C64330022C06D /* LC434.h */,
 				1FE2B965216C64330022C06D /* LC434.c */,
+				1F279B55216D9E9A007E9054 /* LC169.h */,
+				1F279B56216D9E9A007E9054 /* LC169.c */,
+				1F279B58216DBA32007E9054 /* LC217.h */,
+				1F279B59216DBA32007E9054 /* LC217.c */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -453,6 +463,7 @@
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
 				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
 				1FE2B954216AFFEA0022C06D /* LC155.c in Sources */,
+				1F279B57216D9E9A007E9054 /* LC169.c in Sources */,
 				1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */,
 				1F2F02D32143CF9000B32E46 /* LC88.c in Sources */,
 				1FC7F26E215CDF9D00DDDF25 /* LC66.c in Sources */,
@@ -464,6 +475,7 @@
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
 				1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */,
 				1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */,
+				1F279B5A216DBA32007E9054 /* LC217.c in Sources */,
 				1F00258B21649D26006F4AB4 /* LC125.c in Sources */,
 				1F0025852164977F006F4AB4 /* LC121.c in Sources */,
 				1F00257F21646828006F4AB4 /* LC112.c in Sources */,
