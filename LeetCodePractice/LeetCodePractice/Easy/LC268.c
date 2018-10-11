@@ -14,7 +14,7 @@
  你的算法应具有线性时间复杂度。你能否仅使用额外常数空间来实现?
  */
 
-#include "Quiz15.h"
+#include "LC268.h"
 
 int missingNumber(int* nums, int numsSize) {
     
