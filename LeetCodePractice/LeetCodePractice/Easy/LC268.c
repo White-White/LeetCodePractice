@@ -38,3 +38,12 @@ int missingNumber(int* nums, int numsSize) {
     
     return 0;
 }
+
+//神一样的代码…
+int missingNumberBetter(int* nums, int numsSize) {
+    int ret = numsSize;
+    for (int i = 0; i < numsSize; i++) {
+        ret = ret ^ i ^ nums[i];
+    }
+    return ret;
+}
