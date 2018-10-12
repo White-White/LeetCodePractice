@@ -9,7 +9,7 @@
 #import "OCRun.h"
 //oc c 测试环境
 
-#include "LC387.h"
+#include "LC168.h"
 
 @implementation OCRun
 
@@ -79,7 +79,7 @@
 }
 
 + (void)run {
-    firstUniqChar("dacca");
+    convertToTitle(52);
 }
 
 @end
