@@ -26,26 +26,47 @@
 
 #include "LC414.h"
 
-void _insertAndReplace(int target, int* array, int arraySize) {
-    
-}
-
 int thirdMax(int* nums, int numsSize) {
-    int buf[3];
+    if (numsSize <= 0) { exit(1); }
+    
+    int xth = 3; //xth largest number
+    
+    int bufMaxSize = xth;
+    int buf[bufMaxSize];
     int bufSize = 0;
     
     for (int i = 0; i < numsSize; i++) {
-//        if (bufUsed < 3) {
-//            buf[bufUsed] = nums[i];
-//            bufUsed++;
-//        } else {
-//
-//            for (int j = 0)
-//
-//        }
+        int indexToInsert = 0;
+        int target = nums[i];
+        
         for (int j = 0; j < bufSize; j++) {
-            
+            if (target > buf[j]) {
+                //移动
+                for (int k = min(bufMaxSize - 1, bufSize); k > j; k--) {
+                    buf[k] = buf[k-1];
+                }
+                break;
+            } else if (target == buf[j]) {
+                indexToInsert = bufMaxSize; //这里使indexToInsert等于bufMaxSize，则表示插入不合法，底下不会插入
+                break;
+            } else {
+                indexToInsert++;
+                continue;
+            }
+        }
+        
+        if (indexToInsert > bufMaxSize - 1) {
+            continue;
+        } else {
+            //增加
+            buf[indexToInsert] = target;
+            bufSize = min(bufSize+1, bufMaxSize);
         }
     }
     
+    if (bufSize == bufMaxSize) {
+        return buf[bufMaxSize - 1];
+    } else {
+        return buf[0];
+    }
 }

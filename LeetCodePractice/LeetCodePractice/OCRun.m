@@ -10,6 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
+#include "LC414.h"
 
 @implementation OCRun
 
@@ -78,8 +79,11 @@
     [self printNode:node->right];
 }
 
+
+
 + (void)run {
-    convertToTitle(52);
+    int buf[] = {1,2,2,5,3,5};
+    thirdMax(buf, 6);
 }
 
 @end

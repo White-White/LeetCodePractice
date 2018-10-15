@@ -10,5 +10,5 @@
 #define LC414_h
 
 #include <stdio.h>
-
+int thirdMax(int* nums, int numsSize);
 #endif /* LC414_h */
