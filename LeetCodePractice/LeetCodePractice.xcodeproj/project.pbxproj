@@ -42,6 +42,8 @@
 		1F60C999217440ED00B14606 /* LC414.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F43DEBF216F79D9005DEEC0 /* LC414.c */; };
 		1F60C99E21746E3300B14606 /* LC448.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C99D21746E3300B14606 /* LC448.swift */; };
 		1F60C9A1217470A200B14606 /* LC485.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A0217470A200B14606 /* LC485.c */; };
+		1F60C9A42174722800B14606 /* LC532.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A32174722800B14606 /* LC532.c */; };
+		1F60C9A6217472D400B14606 /* LC532.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A5217472D400B14606 /* LC532.swift */; };
 		1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF1214692D000B72F64 /* Quiz16.c */; };
 		1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF82147DC4E00B72F64 /* Quiz17.c */; };
 		1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AFB2147EC4600B72F64 /* Quiz18.c */; };
@@ -156,6 +158,9 @@
 		1F60C99D21746E3300B14606 /* LC448.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC448.swift; sourceTree = "<group>"; };
 		1F60C99F217470A200B14606 /* LC485.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC485.h; sourceTree = "<group>"; };
 		1F60C9A0217470A200B14606 /* LC485.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC485.c; sourceTree = "<group>"; };
+		1F60C9A22174722800B14606 /* LC532.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC532.h; sourceTree = "<group>"; };
+		1F60C9A32174722800B14606 /* LC532.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC532.c; sourceTree = "<group>"; };
+		1F60C9A5217472D400B14606 /* LC532.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC532.swift; sourceTree = "<group>"; };
 		1F6E5AF0214692D000B72F64 /* Quiz16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz16.h; sourceTree = "<group>"; };
 		1F6E5AF1214692D000B72F64 /* Quiz16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz16.c; sourceTree = "<group>"; };
 		1F6E5AF72147DC4E00B72F64 /* Quiz17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz17.h; sourceTree = "<group>"; };
@@ -318,6 +323,9 @@
 				1F60C99D21746E3300B14606 /* LC448.swift */,
 				1F60C99F217470A200B14606 /* LC485.h */,
 				1F60C9A0217470A200B14606 /* LC485.c */,
+				1F60C9A22174722800B14606 /* LC532.h */,
+				1F60C9A32174722800B14606 /* LC532.c */,
+				1F60C9A5217472D400B14606 /* LC532.swift */,
 			);
 			path = Easy3;
 			sourceTree = "<group>";
@@ -493,6 +501,7 @@
 				1FE2B954216AFFEA0022C06D /* LC155.c in Sources */,
 				1F60C99E21746E3300B14606 /* LC448.swift in Sources */,
 				1F279B57216D9E9A007E9054 /* LC169.c in Sources */,
+				1F60C9A42174722800B14606 /* LC532.c in Sources */,
 				1F781C4F2157B3E400D745D9 /* Quiz25.c in Sources */,
 				1F2F02D32143CF9000B32E46 /* LC88.c in Sources */,
 				1FC7F26E215CDF9D00DDDF25 /* LC66.c in Sources */,
@@ -535,6 +544,7 @@
 				1FE2B960216C53DE0022C06D /* LC383.c in Sources */,
 				1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */,
 				1F781C61215BD0FF00D745D9 /* LC53.c in Sources */,
+				1F60C9A6217472D400B14606 /* LC532.swift in Sources */,
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,

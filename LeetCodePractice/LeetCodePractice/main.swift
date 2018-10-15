@@ -13,5 +13,5 @@ OCRun.run()
 
 
 //swift语言测试
-
+Solution_532_Better().findPairs([1,3,1,5,4], 0)
 
