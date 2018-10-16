@@ -44,6 +44,7 @@
 		1F60C9A1217470A200B14606 /* LC485.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A0217470A200B14606 /* LC485.c */; };
 		1F60C9A42174722800B14606 /* LC532.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A32174722800B14606 /* LC532.c */; };
 		1F60C9A6217472D400B14606 /* LC532.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A5217472D400B14606 /* LC532.swift */; };
+		1F60C9A92175813B00B14606 /* LC171.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9A82175813B00B14606 /* LC171.c */; };
 		1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF1214692D000B72F64 /* Quiz16.c */; };
 		1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF82147DC4E00B72F64 /* Quiz17.c */; };
 		1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AFB2147EC4600B72F64 /* Quiz18.c */; };
@@ -161,6 +162,8 @@
 		1F60C9A22174722800B14606 /* LC532.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC532.h; sourceTree = "<group>"; };
 		1F60C9A32174722800B14606 /* LC532.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC532.c; sourceTree = "<group>"; };
 		1F60C9A5217472D400B14606 /* LC532.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC532.swift; sourceTree = "<group>"; };
+		1F60C9A72175813B00B14606 /* LC171.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC171.h; sourceTree = "<group>"; };
+		1F60C9A82175813B00B14606 /* LC171.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC171.c; sourceTree = "<group>"; };
 		1F6E5AF0214692D000B72F64 /* Quiz16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz16.h; sourceTree = "<group>"; };
 		1F6E5AF1214692D000B72F64 /* Quiz16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz16.c; sourceTree = "<group>"; };
 		1F6E5AF72147DC4E00B72F64 /* Quiz17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz17.h; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 		1F274EA2215BA43C0076AAD1 /* Easy3 */ = {
 			isa = PBXGroup;
 			children = (
+				1F60C9A72175813B00B14606 /* LC171.h */,
+				1F60C9A82175813B00B14606 /* LC171.c */,
 				1F274EA3215BA4520076AAD1 /* Quiz31.h */,
 				1F274EA4215BA4520076AAD1 /* Quiz31.c */,
 				1F781C5F215BD0FF00D745D9 /* LC53.h */,
@@ -498,6 +503,7 @@
 				1F00258E2164A6C2006F4AB4 /* LC141.c in Sources */,
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
 				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
+				1F60C9A92175813B00B14606 /* LC171.c in Sources */,
 				1FE2B954216AFFEA0022C06D /* LC155.c in Sources */,
 				1F60C99E21746E3300B14606 /* LC448.swift in Sources */,
 				1F279B57216D9E9A007E9054 /* LC169.c in Sources */,
