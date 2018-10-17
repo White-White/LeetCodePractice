@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC414.h"
+#include "LC896.h"
 
 @implementation OCRun
 
@@ -82,8 +82,8 @@
 
 
 + (void)run {
-    int buf[] = {1,2,2,5,3,5};
-    thirdMax(buf, 6);
+    int buf[] = {6,5,4,4};
+    isMonotonic(buf, 4);
 }
 
 @end

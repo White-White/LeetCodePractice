@@ -23,6 +23,7 @@
 		1F279B5A216DBA32007E9054 /* LC217.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F279B59216DBA32007E9054 /* LC217.c */; };
 		1F279B5D216DC177007E9054 /* LC219.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F279B5C216DC177007E9054 /* LC219.c */; };
 		1F29B04A21770636002B300B /* LC914.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29B04921770636002B300B /* LC914.swift */; };
+		1F29B04D21770CB0002B300B /* LC896.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F29B04C21770CB0002B300B /* LC896.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
 		1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C7213BBCFB00B32E46 /* Quiz4.m */; };
@@ -130,6 +131,8 @@
 		1F279B5B216DC177007E9054 /* LC219.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC219.h; sourceTree = "<group>"; };
 		1F279B5C216DC177007E9054 /* LC219.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC219.c; sourceTree = "<group>"; };
 		1F29B04921770636002B300B /* LC914.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC914.swift; sourceTree = "<group>"; };
+		1F29B04B21770CB0002B300B /* LC896.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC896.h; sourceTree = "<group>"; };
+		1F29B04C21770CB0002B300B /* LC896.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC896.c; sourceTree = "<group>"; };
 		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
 		1F2F02C02132709200B32E46 /* Day3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day3.h; sourceTree = "<group>"; };
 		1F2F02C3213270CB00B32E46 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
@@ -268,6 +271,8 @@
 				1F60C9A82175813B00B14606 /* LC171.c */,
 				1F60C9B021758C5A00B14606 /* LC561.swift */,
 				1F29B04921770636002B300B /* LC914.swift */,
+				1F29B04B21770CB0002B300B /* LC896.h */,
+				1F29B04C21770CB0002B300B /* LC896.c */,
 				1F60C9B221758EA100B14606 /* LC905.h */,
 				1F60C9B321758EA100B14606 /* LC905.c */,
 				1F60C9AA217585D200B14606 /* LC172.h */,
@@ -571,6 +576,7 @@
 				1F781C61215BD0FF00D745D9 /* LC53.c in Sources */,
 				1F60C9A6217472D400B14606 /* LC532.swift in Sources */,
 				1FA7EA052131793100163B81 /* day1.swift in Sources */,
+				1F29B04D21770CB0002B300B /* LC896.c in Sources */,
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1F60C9AC217585D300B14606 /* LC172.c in Sources */,
