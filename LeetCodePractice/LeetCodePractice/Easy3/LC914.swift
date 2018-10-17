@@ -82,5 +82,30 @@ class Solution_914 {
         }
         
     }
+    
+    //求最大公约数
+    func hasGroupsSizeX_better(_ deck: [Int]) -> Bool {
+        func gcd(a: Int, b: Int) -> Int {
+            return (b > 0 ? gcd(a: b, b: a % b) : a)
+        }
+        
+        //
+        guard deck.count >= 2 else { return false }
+        
+        var dict: [Int: Int] = [:]
+        
+        for num in deck {
+            dict[num] = (dict[num] ?? 0) + 1
+        }
+        
+        let counts = dict.keys.compactMap { dict[$0] }
+        
+        var res = 0
+        for count in counts {
+            res = gcd(a: count, b: res)
+        }
+        
+        return res > 1
+    }
 }
 
