@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC888.h"
+#include "LC849.h"
 
 @implementation OCRun
 
@@ -82,10 +82,10 @@
 
 
 + (void)run {
-    int buf[] = {1,1};
+    int buf[] = {1,0,0,0};
     int buf2[] = {2,2};
-    int x;
-    fairCandySwap(buf, 2, buf2, 2, &x);
+    
+    maxDistToClosest(buf, 4);
 }
 
 @end
