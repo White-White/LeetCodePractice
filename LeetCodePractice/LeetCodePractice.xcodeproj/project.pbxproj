@@ -27,6 +27,7 @@
 		1F29B050217710C6002B300B /* LC888.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F29B04F217710C6002B300B /* LC888.c */; };
 		1F29B053217855F2002B300B /* LC867.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F29B052217855F2002B300B /* LC867.c */; };
 		1F29B056217858A2002B300B /* LC849.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F29B055217858A2002B300B /* LC849.c */; };
+		1F29B0592179B2BF002B300B /* LC840.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F29B0582179B2BF002B300B /* LC840.c */; };
 		1F2F02BD2132643900B32E46 /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02BC2132643900B32E46 /* day2.c */; };
 		1F2F02C521327B8F00B32E46 /* Day3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C421327B8F00B32E46 /* Day3.m */; };
 		1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02C7213BBCFB00B32E46 /* Quiz4.m */; };
@@ -142,6 +143,8 @@
 		1F29B052217855F2002B300B /* LC867.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC867.c; sourceTree = "<group>"; };
 		1F29B054217858A2002B300B /* LC849.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC849.h; sourceTree = "<group>"; };
 		1F29B055217858A2002B300B /* LC849.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC849.c; sourceTree = "<group>"; };
+		1F29B0572179B2BF002B300B /* LC840.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC840.h; sourceTree = "<group>"; };
+		1F29B0582179B2BF002B300B /* LC840.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC840.c; sourceTree = "<group>"; };
 		1F2F02BC2132643900B32E46 /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
 		1F2F02C02132709200B32E46 /* Day3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day3.h; sourceTree = "<group>"; };
 		1F2F02C3213270CB00B32E46 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
@@ -278,6 +281,8 @@
 			children = (
 				1F60C9A72175813B00B14606 /* LC171.h */,
 				1F60C9A82175813B00B14606 /* LC171.c */,
+				1F29B0572179B2BF002B300B /* LC840.h */,
+				1F29B0582179B2BF002B300B /* LC840.c */,
 				1F29B051217855F2002B300B /* LC867.h */,
 				1F29B052217855F2002B300B /* LC867.c */,
 				1F29B054217858A2002B300B /* LC849.h */,
@@ -551,6 +556,7 @@
 				1F00257A21634EF3006F4AB4 /* LC107.swift in Sources */,
 				1FE2B957216B2C7F0022C06D /* LC160.c in Sources */,
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
+				1F29B0592179B2BF002B300B /* LC840.c in Sources */,
 				1FC7F28A215E105F00DDDF25 /* LC111.c in Sources */,
 				1F2F02D12143CB1B00B32E46 /* Quiz7.c in Sources */,
 				1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */,
