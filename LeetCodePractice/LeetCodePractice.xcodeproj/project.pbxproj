@@ -67,6 +67,7 @@
 		1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C5D2158BBA100D745D9 /* Quiz30.c */; };
 		1F781C61215BD0FF00D745D9 /* LC53.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781C60215BD0FF00D745D9 /* LC53.c */; };
 		1F781F01217D747A00C14924 /* LC832.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F00217D747A00C14924 /* LC832.c */; };
+		1F781F04217D77C300C14924 /* LC830.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F03217D77C300C14924 /* LC830.c */; };
 		1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD75214DF9BD007AE55E /* Quiz21.c */; };
 		1F7FAD79214E2FB5007AE55E /* LC189.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD78214E2FB5007AE55E /* LC189.c */; };
 		1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7C215149DA007AE55E /* Quiz23.c */; };
@@ -216,6 +217,8 @@
 		1F781C60215BD0FF00D745D9 /* LC53.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC53.c; sourceTree = "<group>"; };
 		1F781EFF217D747A00C14924 /* LC832.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC832.h; sourceTree = "<group>"; };
 		1F781F00217D747A00C14924 /* LC832.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC832.c; sourceTree = "<group>"; };
+		1F781F02217D77C300C14924 /* LC830.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC830.h; sourceTree = "<group>"; };
+		1F781F03217D77C300C14924 /* LC830.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC830.c; sourceTree = "<group>"; };
 		1F7FAD71214CE4F0007AE55E /* Quiz20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz20.h; sourceTree = "<group>"; };
 		1F7FAD72214CE4F0007AE55E /* Quiz20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz20.c; sourceTree = "<group>"; };
 		1F7FAD74214DF9BD007AE55E /* Quiz21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz21.h; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 			children = (
 				1F60C9A72175813B00B14606 /* LC171.h */,
 				1F60C9A82175813B00B14606 /* LC171.c */,
+				1F781F02217D77C300C14924 /* LC830.h */,
+				1F781F03217D77C300C14924 /* LC830.c */,
 				1F781EFF217D747A00C14924 /* LC832.h */,
 				1F781F00217D747A00C14924 /* LC832.c */,
 				1F29B0572179B2BF002B300B /* LC840.h */,
@@ -608,6 +613,7 @@
 				1F2F02DE2144B9CB00B32E46 /* swiftHelper.swift in Sources */,
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1F60C9AC217585D300B14606 /* LC172.c in Sources */,
+				1F781F04217D77C300C14924 /* LC830.c in Sources */,
 				1FE2B95A216B34160022C06D /* LC167.c in Sources */,
 				1F29B050217710C6002B300B /* LC888.c in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,

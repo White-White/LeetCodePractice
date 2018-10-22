@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC840.h"
+#include "LC830.h"
 
 @implementation OCRun
 
@@ -83,18 +83,9 @@
 
 + (void)run {
     int* buf[3]; // = {,{9,5,1,9},{2,7,6,2}};
-    
-    int temp[] = {10,3,5};
-    buf[0] = temp;
-    
-    int temp2[] = {1,6,11};
-    buf[1] = temp2;
-    
-    int temp3[] = {7,9,2};
-    buf[2] = temp3;
-    
-    int col[] = {3,3,3};
-    numMagicSquaresInside(buf, 3, col);
+    int *col;
+    int ret;
+    largeGroupPositions("abbxxxxzzy", &col, &ret);
 }
 
 @end
