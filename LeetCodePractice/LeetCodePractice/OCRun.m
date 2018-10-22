@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC830.h"
+#include "LC766.h"
 
 @implementation OCRun
 
@@ -82,10 +82,20 @@
 
 
 + (void)run {
-    int* buf[3]; // = {,{9,5,1,9},{2,7,6,2}};
-    int *col;
+    int* buf[3];
+    
+    int tem1[] = {1,2,3,4};
+    buf[0] = tem1;
+    
+    int tem2[] = {5,1,2,3};
+    buf[1] = tem2;
+    
+    int tem3[] = {9,5,1,2};
+    buf[2] = tem3;
+    
+    int col[] = {4,4,4};
     int ret;
-    largeGroupPositions("abbxxxxzzy", &col, &ret);
+    isToeplitzMatrix(buf, 3, col);
 }
 
 @end
