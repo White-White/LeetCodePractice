@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC746.h"
+#include "LC724.h"
 
 @implementation OCRun
 
@@ -84,7 +84,7 @@
 + (void)run {
     int* buf[3];
     
-    int tem1[] = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
+    int tem1[] = {-1,-1,0,1,1,0};
     buf[0] = tem1;
     
     int tem2[] = {5,1,2,3};
@@ -96,7 +96,7 @@
     int col[] = {4,4,4};
     int ret;
     
-    minCostClimbingStairsDP(tem1, 10);
+    pivotIndex(tem1, 6);
 }
 
 @end
