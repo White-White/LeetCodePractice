@@ -46,3 +46,5 @@ int pivotIndex(int* nums, int numsSize) {
     
     return -1;
 }
+
+//注 sum数组是可以省去的 算法有优化空间

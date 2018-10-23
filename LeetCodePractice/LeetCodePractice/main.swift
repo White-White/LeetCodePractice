@@ -13,5 +13,5 @@ OCRun.run()
 
 
 //swift语言测试
-Solution_914().hasGroupsSizeX([0,0,0,0,0,1,1,2,3,4])
+Solution_697().findShortestSubArray([1,2,1])
 

@@ -72,6 +72,8 @@
 		1F781F0A217D8D2E00C14924 /* LC747.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F09217D8D2E00C14924 /* LC747.c */; };
 		1F781F0D217EBD4000C14924 /* LC746.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F0C217EBD4000C14924 /* LC746.c */; };
 		1F781F10217ECCE000C14924 /* LC724.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F0F217ECCE000C14924 /* LC724.c */; };
+		1F781F13217EDF0A00C14924 /* LC717.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F12217EDF0A00C14924 /* LC717.c */; };
+		1F781F15217EE48300C14924 /* LC697.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F781F14217EE48300C14924 /* LC697.swift */; };
 		1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD75214DF9BD007AE55E /* Quiz21.c */; };
 		1F7FAD79214E2FB5007AE55E /* LC189.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD78214E2FB5007AE55E /* LC189.c */; };
 		1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7C215149DA007AE55E /* Quiz23.c */; };
@@ -231,6 +233,9 @@
 		1F781F0C217EBD4000C14924 /* LC746.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC746.c; sourceTree = "<group>"; };
 		1F781F0E217ECCE000C14924 /* LC724.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC724.h; sourceTree = "<group>"; };
 		1F781F0F217ECCE000C14924 /* LC724.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC724.c; sourceTree = "<group>"; };
+		1F781F11217EDF0A00C14924 /* LC717.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC717.h; sourceTree = "<group>"; };
+		1F781F12217EDF0A00C14924 /* LC717.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC717.c; sourceTree = "<group>"; };
+		1F781F14217EE48300C14924 /* LC697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC697.swift; sourceTree = "<group>"; };
 		1F7FAD71214CE4F0007AE55E /* Quiz20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz20.h; sourceTree = "<group>"; };
 		1F7FAD72214CE4F0007AE55E /* Quiz20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz20.c; sourceTree = "<group>"; };
 		1F7FAD74214DF9BD007AE55E /* Quiz21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz21.h; sourceTree = "<group>"; };
@@ -299,6 +304,9 @@
 			children = (
 				1F60C9A72175813B00B14606 /* LC171.h */,
 				1F60C9A82175813B00B14606 /* LC171.c */,
+				1F781F11217EDF0A00C14924 /* LC717.h */,
+				1F781F12217EDF0A00C14924 /* LC717.c */,
+				1F781F14217EE48300C14924 /* LC697.swift */,
 				1F781F0E217ECCE000C14924 /* LC724.h */,
 				1F781F0F217ECCE000C14924 /* LC724.c */,
 				1F781F0B217EBD4000C14924 /* LC746.h */,
@@ -595,6 +603,7 @@
 				1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */,
 				1F279B5A216DBA32007E9054 /* LC217.c in Sources */,
 				1F60C9A1217470A200B14606 /* LC485.c in Sources */,
+				1F781F15217EE48300C14924 /* LC697.swift in Sources */,
 				1F00258B21649D26006F4AB4 /* LC125.c in Sources */,
 				1F279B5D216DC177007E9054 /* LC219.c in Sources */,
 				1F0025852164977F006F4AB4 /* LC121.c in Sources */,
@@ -622,6 +631,7 @@
 				1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */,
 				1FE2B95D216C50D20022C06D /* LC345.c in Sources */,
 				1F2F02ED2145372500B32E46 /* LC268.c in Sources */,
+				1F781F13217EDF0A00C14924 /* LC717.c in Sources */,
 				1FE2B966216C64330022C06D /* LC434.c in Sources */,
 				1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */,
 				1FE2B960216C53DE0022C06D /* LC383.c in Sources */,
