@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC674.h"
+#include "LC643.h"
 
 @implementation OCRun
 
@@ -87,7 +87,7 @@
     int tem1[] = {-1,-1,0,1,1,0};
     buf[0] = tem1;
     
-    int tem2[] = {1,3,5,4,7};
+    int tem2[] = {-1};
     buf[1] = tem2;
     
     int tem3[] = {9,5,1,2};
@@ -96,7 +96,7 @@
     int col[] = {4,4,4};
     int ret;
     
-    findLengthOfLCIS(tem2, 5);
+    findMaxAverage(tem2, 1, 1);
 }
 
 @end

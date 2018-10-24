@@ -46,6 +46,7 @@
 		1F3079C0218010340023605B /* LC674.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079BF218010340023605B /* LC674.c */; };
 		1F3079C3218014CA0023605B /* LC665.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C2218014CA0023605B /* LC665.c */; };
 		1F3079C621801B830023605B /* LC661.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C521801B830023605B /* LC661.c */; };
+		1F3079C921801E100023605B /* LC643.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C821801E100023605B /* LC643.c */; };
 		1F43DEBD216F7285005DEEC0 /* LC283.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F43DEBC216F7285005DEEC0 /* LC283.c */; };
 		1F60C998217066F700B14606 /* LC168.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C997217066F700B14606 /* LC168.c */; };
 		1F60C999217440ED00B14606 /* LC414.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F43DEBF216F79D9005DEEC0 /* LC414.c */; };
@@ -187,6 +188,8 @@
 		1F3079C2218014CA0023605B /* LC665.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC665.c; sourceTree = "<group>"; };
 		1F3079C421801B830023605B /* LC661.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC661.h; sourceTree = "<group>"; };
 		1F3079C521801B830023605B /* LC661.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC661.c; sourceTree = "<group>"; };
+		1F3079C721801E100023605B /* LC643.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC643.h; sourceTree = "<group>"; };
+		1F3079C821801E100023605B /* LC643.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC643.c; sourceTree = "<group>"; };
 		1F43DEBB216F7285005DEEC0 /* LC283.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC283.h; sourceTree = "<group>"; };
 		1F43DEBC216F7285005DEEC0 /* LC283.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC283.c; sourceTree = "<group>"; };
 		1F43DEBE216F79D9005DEEC0 /* LC414.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC414.h; sourceTree = "<group>"; };
@@ -313,6 +316,8 @@
 			children = (
 				1F60C9A72175813B00B14606 /* LC171.h */,
 				1F60C9A82175813B00B14606 /* LC171.c */,
+				1F3079C721801E100023605B /* LC643.h */,
+				1F3079C821801E100023605B /* LC643.c */,
 				1F3079C421801B830023605B /* LC661.h */,
 				1F3079C521801B830023605B /* LC661.c */,
 				1F3079C1218014CA0023605B /* LC665.h */,
@@ -643,6 +648,7 @@
 				1F00257C21634F15006F4AB4 /* swiftDefines.swift in Sources */,
 				1F2F02C521327B8F00B32E46 /* Day3.m in Sources */,
 				1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */,
+				1F3079C921801E100023605B /* LC643.c in Sources */,
 				1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */,
 				1F00258221648D18006F4AB4 /* LC119.c in Sources */,
 				1FC7F27D215DFC0A00DDDF25 /* LC83.c in Sources */,
