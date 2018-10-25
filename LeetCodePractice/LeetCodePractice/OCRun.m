@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC581.h"
+#include "LC566.h"
 
 @implementation OCRun
 
@@ -84,19 +84,19 @@
 + (void)run {
     int* buf[3];
     
-    int tem1[] = {2,6,4,8,10,9,15};
+    int tem1[] = {1,2,3,4};
     buf[0] = tem1;
     
-    int tem2[] = {-1};
-    buf[1] = tem2;
+//    int tem2[] = {-1};
+//    buf[1] = tem2;
+//
+//    int tem3[] = {9,5,1,2};
+//    buf[2] = tem3;
     
-    int tem3[] = {9,5,1,2};
-    buf[2] = tem3;
-    
-    int col[] = {4,4,4};
+    int* col = NULL;
     int ret;
     
-    findUnsortedSubarray(tem1, 7);
+    matrixReshape(buf, 1, 4, 2, 2, &col, &ret);
 }
 
 @end
