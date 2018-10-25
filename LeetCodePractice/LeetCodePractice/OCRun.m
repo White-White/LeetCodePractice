@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC605.h"
+#include "LC581.h"
 
 @implementation OCRun
 
@@ -84,7 +84,7 @@
 + (void)run {
     int* buf[3];
     
-    int tem1[] = {1,0,0,0,1,0,0};
+    int tem1[] = {2,6,4,8,10,9,15};
     buf[0] = tem1;
     
     int tem2[] = {-1};
@@ -96,7 +96,7 @@
     int col[] = {4,4,4};
     int ret;
     
-    canPlaceFlowers(tem1, 7, 2);
+    findUnsortedSubarray(tem1, 7);
 }
 
 @end
