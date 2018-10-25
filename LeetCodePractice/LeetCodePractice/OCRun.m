@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC643.h"
+#include "LC628.h"
 
 @implementation OCRun
 
@@ -84,7 +84,7 @@
 + (void)run {
     int* buf[3];
     
-    int tem1[] = {-1,-1,0,1,1,0};
+    int tem1[] = {1,2,3};
     buf[0] = tem1;
     
     int tem2[] = {-1};
@@ -96,7 +96,7 @@
     int col[] = {4,4,4};
     int ret;
     
-    findMaxAverage(tem2, 1, 1);
+    maximumProduct(tem1, 3);
 }
 
 @end

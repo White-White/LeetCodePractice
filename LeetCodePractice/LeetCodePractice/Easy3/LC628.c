@@ -1,30 +1,19 @@
 /*
- 
- Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+ Given an integer array, find three numbers whose product is maximum and output the maximum product.
  
  Example 1:
- Input: [3, 2, 1]
- 
- Output: 1
- 
- Explanation: The third maximum is 1.
+ Input: [1,2,3]
+ Output: 6
  Example 2:
- Input: [1, 2]
- 
- Output: 2
- 
- Explanation: The third maximum does not exist, so the maximum (2) is returned instead.
- Example 3:
- Input: [2, 2, 3, 1]
- 
- Output: 1
- 
- Explanation: Note that the third maximum here means the third maximum distinct number.
- Both numbers with value 2 are both considered as second maximum.
- 
+ Input: [1,2,3,4]
+ Output: 24
+ Note:
+ The length of the given array will be in range [3,104] and all elements are in the range [-1000, 1000].
+ Multiplication of any three numbers in the input won't exceed the range of 32-bit signed integer.
+
  */
 
-#include "LC414.h"
+#include "LC628.h"
 
 int maximumProduct(int* nums, int numsSize) {
     
@@ -43,7 +32,7 @@ int maximumProduct(int* nums, int numsSize) {
         for (int j = 0; j < bufMaxSize; j++) {
             if (target >= bufMaxThree[j]) {
                 //移动
-                for (int k = min(bufMaxSize, 2); k > j; k--) {
+                for (int k = min(bufMaxSize - 1, bufMaxSize); k > j; k--) {
                     bufMaxThree[k] = bufMaxThree[k-1];
                 }
                 break;
@@ -63,7 +52,7 @@ int maximumProduct(int* nums, int numsSize) {
         for (int j = 0; j < bufMinSize; j++) {
             if (target <= bufMinTwo[j]) {
                 //移动
-                for (int k = min(bufMinSize, 1); k > j; k--) {
+                for (int k = min(bufMinSize - 1, bufMinSize); k > j; k--) {
                     bufMinTwo[k] = bufMinTwo[k-1];
                 }
                 break;
@@ -80,13 +69,12 @@ int maximumProduct(int* nums, int numsSize) {
         }
     }
     
-
     int sumMax = 1;
     for (int i = 0; i < 3; i++) {
         sumMax *= bufMaxThree[i];
     }
     
     int sumMin = bufMinTwo[0] * bufMinTwo[1] * bufMaxThree[0];
-
+    
     return max(sumMin, sumMax);
 }

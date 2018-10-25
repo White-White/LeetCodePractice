@@ -17,7 +17,7 @@
 double findMaxAverage(int* nums, int numsSize, int k) {
     
     bool maxAveInitialized = false;
-    double maxAve;
+    double maxAve = 0;
     
     for (int i = 0; i < numsSize - k + 1; i++) {
         int sum = 0;
