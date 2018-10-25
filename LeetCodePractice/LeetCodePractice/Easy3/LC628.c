@@ -32,7 +32,7 @@ int maximumProduct(int* nums, int numsSize) {
         for (int j = 0; j < bufMaxSize; j++) {
             if (target >= bufMaxThree[j]) {
                 //移动
-                for (int k = min(bufMaxSize - 1, bufMaxSize); k > j; k--) {
+                for (int k = min(bufMaxSize, 2); k > j; k--) {
                     bufMaxThree[k] = bufMaxThree[k-1];
                 }
                 break;
@@ -52,7 +52,7 @@ int maximumProduct(int* nums, int numsSize) {
         for (int j = 0; j < bufMinSize; j++) {
             if (target <= bufMinTwo[j]) {
                 //移动
-                for (int k = min(bufMinSize - 1, bufMinSize); k > j; k--) {
+                for (int k = min(bufMinSize, 1); k > j; k--) {
                     bufMinTwo[k] = bufMinTwo[k-1];
                 }
                 break;
@@ -68,6 +68,7 @@ int maximumProduct(int* nums, int numsSize) {
             bufMinSize = min(bufMinSize+1, 2);
         }
     }
+    
     
     int sumMax = 1;
     for (int i = 0; i < 3; i++) {

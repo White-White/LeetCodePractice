@@ -26,67 +26,47 @@
 
 #include "LC414.h"
 
-int maximumProduct(int* nums, int numsSize) {
-    
+int thirdMax(int* nums, int numsSize) {
     if (numsSize <= 0) { exit(1); }
     
-    int bufMaxThree[3];
-    int bufMaxSize = 0;
+    int xth = 3; //xth largest number
     
-    int bufMinTwo[2];
-    int bufMinSize = 0;
+    int bufMaxSize = xth;
+    int buf[bufMaxSize];
+    int bufSize = 0;
     
     for (int i = 0; i < numsSize; i++) {
-        int indexToInsertToMax = 0;
+        int indexToInsert = 0;
         int target = nums[i];
         
-        for (int j = 0; j < bufMaxSize; j++) {
-            if (target >= bufMaxThree[j]) {
+        for (int j = 0; j < bufSize; j++) {
+            if (target > buf[j]) {
                 //移动
-                for (int k = min(bufMaxSize, 2); k > j; k--) {
-                    bufMaxThree[k] = bufMaxThree[k-1];
+                for (int k = min(bufMaxSize - 1, bufSize); k > j; k--) {
+                    buf[k] = buf[k-1];
                 }
                 break;
+            } else if (target == buf[j]) {
+                indexToInsert = bufMaxSize; //这里使indexToInsert等于bufMaxSize，则表示插入不合法，底下不会插入
+                break;
             } else {
-                indexToInsertToMax++;
+                indexToInsert++;
                 continue;
             }
         }
         
-        if (indexToInsertToMax < 3 ) {
+        if (indexToInsert > bufMaxSize - 1) {
+            continue;
+        } else {
             //增加
-            bufMaxThree[indexToInsertToMax] = target;
-            bufMaxSize = min(bufMaxSize+1, 3);
-        }
-        
-        int indexToInsertToMin = 0;
-        for (int j = 0; j < bufMinSize; j++) {
-            if (target <= bufMinTwo[j]) {
-                //移动
-                for (int k = min(bufMinSize, 1); k > j; k--) {
-                    bufMinTwo[k] = bufMinTwo[k-1];
-                }
-                break;
-            } else {
-                indexToInsertToMin++;
-                continue;
-            }
-        }
-        
-        if (indexToInsertToMin < 2) {
-            //增加
-            bufMinTwo[indexToInsertToMin] = target;
-            bufMinSize = min(bufMinSize+1, 2);
+            buf[indexToInsert] = target;
+            bufSize = min(bufSize+1, bufMaxSize);
         }
     }
     
-
-    int sumMax = 1;
-    for (int i = 0; i < 3; i++) {
-        sumMax *= bufMaxThree[i];
+    if (bufSize == bufMaxSize) {
+        return buf[bufMaxSize - 1];
+    } else {
+        return buf[0];
     }
-    
-    int sumMin = bufMinTwo[0] * bufMinTwo[1] * bufMaxThree[0];
-
-    return max(sumMin, sumMax);
 }

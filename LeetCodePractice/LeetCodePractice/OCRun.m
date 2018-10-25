@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC628.h"
+#include "LC605.h"
 
 @implementation OCRun
 
@@ -84,7 +84,7 @@
 + (void)run {
     int* buf[3];
     
-    int tem1[] = {1,2,3};
+    int tem1[] = {1,0,0,0,1,0,0};
     buf[0] = tem1;
     
     int tem2[] = {-1};
@@ -96,7 +96,7 @@
     int col[] = {4,4,4};
     int ret;
     
-    maximumProduct(tem1, 3);
+    canPlaceFlowers(tem1, 7, 2);
 }
 
 @end
