@@ -48,6 +48,7 @@
 		1F3079C621801B830023605B /* LC661.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C521801B830023605B /* LC661.c */; };
 		1F3079C921801E100023605B /* LC643.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C821801E100023605B /* LC643.c */; };
 		1F43DEBD216F7285005DEEC0 /* LC283.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F43DEBC216F7285005DEEC0 /* LC283.c */; };
+		1F52691221A2555E00FFB5D4 /* LC941.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F52691121A2555E00FFB5D4 /* LC941.c */; };
 		1F60C998217066F700B14606 /* LC168.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C997217066F700B14606 /* LC168.c */; };
 		1F60C999217440ED00B14606 /* LC414.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F43DEBF216F79D9005DEEC0 /* LC414.c */; };
 		1F60C99E21746E3300B14606 /* LC448.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C99D21746E3300B14606 /* LC448.swift */; };
@@ -198,6 +199,8 @@
 		1F43DEBC216F7285005DEEC0 /* LC283.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC283.c; sourceTree = "<group>"; };
 		1F43DEBE216F79D9005DEEC0 /* LC414.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC414.h; sourceTree = "<group>"; };
 		1F43DEBF216F79D9005DEEC0 /* LC414.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC414.c; sourceTree = "<group>"; };
+		1F52691021A2555E00FFB5D4 /* LC941.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC941.h; sourceTree = "<group>"; };
+		1F52691121A2555E00FFB5D4 /* LC941.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC941.c; sourceTree = "<group>"; };
 		1F60C996217066F700B14606 /* LC168.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC168.h; sourceTree = "<group>"; };
 		1F60C997217066F700B14606 /* LC168.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC168.c; sourceTree = "<group>"; };
 		1F60C99D21746E3300B14606 /* LC448.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC448.swift; sourceTree = "<group>"; };
@@ -326,6 +329,8 @@
 		1F274EA2215BA43C0076AAD1 /* Easy3 */ = {
 			isa = PBXGroup;
 			children = (
+				1F52691021A2555E00FFB5D4 /* LC941.h */,
+				1F52691121A2555E00FFB5D4 /* LC941.c */,
 				1F60C9A72175813B00B14606 /* LC171.h */,
 				1F60C9A82175813B00B14606 /* LC171.c */,
 				1F73044F218178C00008D4A0 /* LC581.h */,
@@ -693,6 +698,7 @@
 				1F2F02C8213BBCFB00B32E46 /* Quiz4.m in Sources */,
 				1F60C9AC217585D300B14606 /* LC172.c in Sources */,
 				1F781F04217D77C300C14924 /* LC830.c in Sources */,
+				1F52691221A2555E00FFB5D4 /* LC941.c in Sources */,
 				1FE2B95A216B34160022C06D /* LC167.c in Sources */,
 				1F29B050217710C6002B300B /* LC888.c in Sources */,
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
