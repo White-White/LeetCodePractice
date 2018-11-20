@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC941.h"
+#include "LC443.h"
 
 @implementation OCRun
 
@@ -82,11 +82,9 @@
 
 
 + (void)run {
-    int* buf[3];
+    char buffer[] = "abcdefggggggggggggabc";
     
-    int tem1[] = {9,8,7,6,5,4,3,2,1,0};
-    
-    validMountainArray(tem1, 10);
+    compress(buffer, 21);
 }
 
 @end
