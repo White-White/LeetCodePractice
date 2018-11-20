@@ -84,7 +84,7 @@
 + (void)run {
     char buffer[] = "abcdefggggggggggggabc";
     
-    compress(buffer, 21);
+    compressBetter(buffer, 21);
 }
 
 @end

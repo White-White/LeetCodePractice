@@ -11,4 +11,5 @@
 
 #include <stdio.h>
 int compress(char* chars, int charsSize);
+int compressBetter(char* chars, int charsSize);
 #endif /* LC443_h */

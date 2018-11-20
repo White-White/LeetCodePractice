@@ -91,3 +91,30 @@ int compress(char* chars, int charsSize) {
     
     return (int)(writting - chars);
 }
+
+//LC的答案
+
+int compressBetter(char* chars, int charsSize) {
+    int anchcor = 0;
+    int write = 0;
+    
+    for (int read = 0; read < charsSize; read++) {
+        if (read == charsSize -1 || chars[read+1] != chars[read]) {
+            chars[write] = chars[read];
+            write++;
+            
+            if (read > anchcor) {
+                int len = read - anchcor + 1;
+                
+                //以下可使用itoa代替
+                char tempBuffer[len/10+2];
+                int lenTempBuff = sprintf(tempBuffer, "%d", len);
+                strncpy(chars+write, tempBuffer, lenTempBuff);
+                write += lenTempBuff;
+                
+            }
+            anchcor = read + 1;
+        }
+    }
+    return write;
+}
