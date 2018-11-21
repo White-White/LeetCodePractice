@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LC459 : NSObject
 bool repeatedSubstringPattern(char* s);
+bool repeatedSubstringPatternYetAnother(char* s);
 @end
 
 NS_ASSUME_NONNULL_END

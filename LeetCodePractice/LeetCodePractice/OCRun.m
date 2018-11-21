@@ -82,9 +82,9 @@
 
 
 + (void)run {
-    char buffer[] = "abcabcaabcabcd";
+    char buffer[] = "abab";
     
-    repeatedSubstringPattern(buffer);
+    repeatedSubstringPatternYetAnother(buffer);
 }
 
 @end

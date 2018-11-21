@@ -59,4 +59,49 @@ bool repeatedSubstringPattern(char* s) {
     return result;
 }
 
+bool repeatedSubstringPatternYetAnother(char* s) {
+    
+    int slen = (int)strlen(s);
+    
+    int sublen = 1;
+    
+    for (int read = 1; read <= slen / 2 + 1; read++) {
+        
+        //
+        sublen = read;
+        
+        //太长了
+        if (sublen*2 > slen) { continue; }
+        
+        //sublen不是slen的因数
+        if (slen % sublen != 0) { continue; }
+        
+        //head不等于s的head
+        if (s[read] != *s) { continue; }
+        
+        //开始循环判断
+        bool soFarSoGood = true;
+        for (int j = 1; j < slen/sublen; j++) {
+            for (int k = 0; k < sublen; k++) {
+                if (!(s[j*sublen + k] == s[k])) {
+                    soFarSoGood = false;
+                    break;
+                }
+            }
+            if (!soFarSoGood) {
+                break;
+            }
+        }
+        
+        if (soFarSoGood) {
+            return true;
+        }
+    }
+    
+    
+    bool result = (sublen != slen && slen%sublen == 0);
+    
+    return result;
+}
+
 @end
