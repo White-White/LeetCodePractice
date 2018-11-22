@@ -60,11 +60,14 @@
 		1F60C9AC217585D300B14606 /* LC172.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9AB217585D200B14606 /* LC172.c */; };
 		1F60C9B121758C5A00B14606 /* LC561.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9B021758C5A00B14606 /* LC561.swift */; };
 		1F60C9B421758EA100B14606 /* LC905.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F60C9B321758EA100B14606 /* LC905.c */; };
+		1F621C8021A65C4A00F9A2C3 /* LC541.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F621C7F21A65C4A00F9A2C3 /* LC541.c */; };
 		1F6E5AF2214692D000B72F64 /* Quiz16.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF1214692D000B72F64 /* Quiz16.c */; };
 		1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AF82147DC4E00B72F64 /* Quiz17.c */; };
 		1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5AFB2147EC4600B72F64 /* Quiz18.c */; };
 		1F6E5B022149128800B72F64 /* Quiz19.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E5B012149128800B72F64 /* Quiz19.c */; };
 		1F719BEA21A50A6F0060DBB2 /* LC459.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F719BE921A50A6F0060DBB2 /* LC459.m */; };
+		1F719C1F21A656F90060DBB2 /* LC520.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F719C1E21A656F90060DBB2 /* LC520.c */; };
+		1F719C2221A65ADB0060DBB2 /* LC521.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F719C2121A65ADB0060DBB2 /* LC521.c */; };
 		1F73044B218167B60008D4A0 /* LC628.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73044A218167B60008D4A0 /* LC628.c */; };
 		1F73044E218172250008D4A0 /* LC605.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73044D218172250008D4A0 /* LC605.c */; };
 		1F730451218178C00008D4A0 /* LC581.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730450218178C00008D4A0 /* LC581.c */; };
@@ -220,6 +223,8 @@
 		1F60C9B021758C5A00B14606 /* LC561.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC561.swift; sourceTree = "<group>"; };
 		1F60C9B221758EA100B14606 /* LC905.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC905.h; sourceTree = "<group>"; };
 		1F60C9B321758EA100B14606 /* LC905.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC905.c; sourceTree = "<group>"; };
+		1F621C7E21A65C4A00F9A2C3 /* LC541.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC541.h; sourceTree = "<group>"; };
+		1F621C7F21A65C4A00F9A2C3 /* LC541.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC541.c; sourceTree = "<group>"; };
 		1F6E5AF0214692D000B72F64 /* Quiz16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz16.h; sourceTree = "<group>"; };
 		1F6E5AF1214692D000B72F64 /* Quiz16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz16.c; sourceTree = "<group>"; };
 		1F6E5AF72147DC4E00B72F64 /* Quiz17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz17.h; sourceTree = "<group>"; };
@@ -230,6 +235,10 @@
 		1F6E5B012149128800B72F64 /* Quiz19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz19.c; sourceTree = "<group>"; };
 		1F719BE821A50A6F0060DBB2 /* LC459.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC459.h; sourceTree = "<group>"; };
 		1F719BE921A50A6F0060DBB2 /* LC459.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LC459.m; sourceTree = "<group>"; };
+		1F719C1D21A656F90060DBB2 /* LC520.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC520.h; sourceTree = "<group>"; };
+		1F719C1E21A656F90060DBB2 /* LC520.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC520.c; sourceTree = "<group>"; };
+		1F719C2021A65ADB0060DBB2 /* LC521.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC521.h; sourceTree = "<group>"; };
+		1F719C2121A65ADB0060DBB2 /* LC521.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC521.c; sourceTree = "<group>"; };
 		1F730449218167B60008D4A0 /* LC628.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC628.h; sourceTree = "<group>"; };
 		1F73044A218167B60008D4A0 /* LC628.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC628.c; sourceTree = "<group>"; };
 		1F73044C218172250008D4A0 /* LC605.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC605.h; sourceTree = "<group>"; };
@@ -337,8 +346,14 @@
 			children = (
 				1F52691021A2555E00FFB5D4 /* LC941.h */,
 				1F52691121A2555E00FFB5D4 /* LC941.c */,
+				1F621C7E21A65C4A00F9A2C3 /* LC541.h */,
+				1F621C7F21A65C4A00F9A2C3 /* LC541.c */,
 				1F719BE821A50A6F0060DBB2 /* LC459.h */,
 				1F719BE921A50A6F0060DBB2 /* LC459.m */,
+				1F719C1D21A656F90060DBB2 /* LC520.h */,
+				1F719C1E21A656F90060DBB2 /* LC520.c */,
+				1F719C2021A65ADB0060DBB2 /* LC521.h */,
+				1F719C2121A65ADB0060DBB2 /* LC521.c */,
 				1F52691821A3A9FB00FFB5D4 /* LC443.h */,
 				1F52691921A3A9FB00FFB5D4 /* LC443.c */,
 				1F60C9A72175813B00B14606 /* LC171.h */,
@@ -637,6 +652,7 @@
 				1F7304542181859E0008D4A0 /* LC566.c in Sources */,
 				1FC7F284215E07A200DDDF25 /* LC101.c in Sources */,
 				1F00258E2164A6C2006F4AB4 /* LC141.c in Sources */,
+				1F621C8021A65C4A00F9A2C3 /* LC541.c in Sources */,
 				1F7FAD76214DF9BD007AE55E /* Quiz21.c in Sources */,
 				1F781C552158752A00D745D9 /* Quiz27.c in Sources */,
 				1F60C9A92175813B00B14606 /* LC171.c in Sources */,
@@ -670,6 +686,7 @@
 				1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */,
 				1F60C9B121758C5A00B14606 /* LC561.swift in Sources */,
 				1F7FAD79214E2FB5007AE55E /* LC189.c in Sources */,
+				1F719C2221A65ADB0060DBB2 /* LC521.c in Sources */,
 				1F73044E218172250008D4A0 /* LC605.c in Sources */,
 				1F3079C0218010340023605B /* LC674.c in Sources */,
 				1F73044B218167B60008D4A0 /* LC628.c in Sources */,
@@ -699,6 +716,7 @@
 				1F781C5E2158BBA100D745D9 /* Quiz30.c in Sources */,
 				1F52691A21A3A9FB00FFB5D4 /* LC443.c in Sources */,
 				1FE2B960216C53DE0022C06D /* LC383.c in Sources */,
+				1F719C1F21A656F90060DBB2 /* LC520.c in Sources */,
 				1F6E5AF92147DC4E00B72F64 /* Quiz17.c in Sources */,
 				1F781C61215BD0FF00D745D9 /* LC53.c in Sources */,
 				1F29B056217858A2002B300B /* LC849.c in Sources */,

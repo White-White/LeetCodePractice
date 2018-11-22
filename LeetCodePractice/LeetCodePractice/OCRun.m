@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC459.h"
+#include "LC541.h"
 
 @implementation OCRun
 
@@ -82,9 +82,9 @@
 
 
 + (void)run {
-    char buffer[] = "abab";
+    char buffer[] = "abcdefg";
     
-    repeatedSubstringPatternYetAnother(buffer);
+    reverseStr(buffer, 2);
 }
 
 @end

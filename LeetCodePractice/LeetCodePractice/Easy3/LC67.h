@@ -10,5 +10,6 @@
 #define LC67_h
 
 #include <stdio.h>
+char *reverseStringPrivate(char * s);
 char* addBinary(char* a, char* b);
 #endif /* LC67_h */
