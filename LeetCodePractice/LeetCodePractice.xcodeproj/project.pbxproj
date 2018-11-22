@@ -112,6 +112,7 @@
 		1FE2B960216C53DE0022C06D /* LC383.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B95F216C53DE0022C06D /* LC383.c */; };
 		1FE2B963216C61170022C06D /* LC387.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B962216C61170022C06D /* LC387.c */; };
 		1FE2B966216C64330022C06D /* LC434.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B965216C64330022C06D /* LC434.c */; };
+		1FF6121C21A6698E00637DD0 /* LC551.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6121B21A6698E00637DD0 /* LC551.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -328,6 +329,8 @@
 		1FE2B962216C61170022C06D /* LC387.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC387.c; sourceTree = "<group>"; };
 		1FE2B964216C64330022C06D /* LC434.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC434.h; sourceTree = "<group>"; };
 		1FE2B965216C64330022C06D /* LC434.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC434.c; sourceTree = "<group>"; };
+		1FF6121A21A6698E00637DD0 /* LC551.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC551.h; sourceTree = "<group>"; };
+		1FF6121B21A6698E00637DD0 /* LC551.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC551.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +349,8 @@
 			children = (
 				1F52691021A2555E00FFB5D4 /* LC941.h */,
 				1F52691121A2555E00FFB5D4 /* LC941.c */,
+				1FF6121A21A6698E00637DD0 /* LC551.h */,
+				1FF6121B21A6698E00637DD0 /* LC551.c */,
 				1F621C7E21A65C4A00F9A2C3 /* LC541.h */,
 				1F621C7F21A65C4A00F9A2C3 /* LC541.c */,
 				1F719BE821A50A6F0060DBB2 /* LC459.h */,
@@ -734,6 +739,7 @@
 				1FA7E9FE2131792100163B81 /* main.swift in Sources */,
 				1F00258821649B56006F4AB4 /* LC122.c in Sources */,
 				1FE2B963216C61170022C06D /* LC387.c in Sources */,
+				1FF6121C21A6698E00637DD0 /* LC551.c in Sources */,
 				1F781F0D217EBD4000C14924 /* LC746.c in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F0025782163338F006F4AB4 /* LC107.c in Sources */,
