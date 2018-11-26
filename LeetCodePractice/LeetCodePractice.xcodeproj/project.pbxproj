@@ -43,6 +43,7 @@
 		1F2F02E721452B5200B32E46 /* Quiz13.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02E621452B5200B32E46 /* Quiz13.c */; };
 		1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02E92145304D00B32E46 /* Quiz14.c */; };
 		1F2F02ED2145372500B32E46 /* LC268.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F02EC2145372500B32E46 /* LC268.c */; };
+		1F2F63DD21AB98FF0063BAA8 /* LC557.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F63DC21AB98FF0063BAA8 /* LC557.c */; };
 		1F3079C0218010340023605B /* LC674.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079BF218010340023605B /* LC674.c */; };
 		1F3079C3218014CA0023605B /* LC665.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C2218014CA0023605B /* LC665.c */; };
 		1F3079C621801B830023605B /* LC661.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3079C521801B830023605B /* LC661.c */; };
@@ -193,6 +194,8 @@
 		1F2F02E92145304D00B32E46 /* Quiz14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz14.c; sourceTree = "<group>"; };
 		1F2F02EB2145372500B32E46 /* LC268.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC268.h; sourceTree = "<group>"; };
 		1F2F02EC2145372500B32E46 /* LC268.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC268.c; sourceTree = "<group>"; };
+		1F2F63DB21AB98FF0063BAA8 /* LC557.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC557.h; sourceTree = "<group>"; };
+		1F2F63DC21AB98FF0063BAA8 /* LC557.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC557.c; sourceTree = "<group>"; };
 		1F3079BE218010340023605B /* LC674.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC674.h; sourceTree = "<group>"; };
 		1F3079BF218010340023605B /* LC674.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC674.c; sourceTree = "<group>"; };
 		1F3079C1218014CA0023605B /* LC665.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC665.h; sourceTree = "<group>"; };
@@ -349,6 +352,8 @@
 			children = (
 				1F52691021A2555E00FFB5D4 /* LC941.h */,
 				1F52691121A2555E00FFB5D4 /* LC941.c */,
+				1F2F63DB21AB98FF0063BAA8 /* LC557.h */,
+				1F2F63DC21AB98FF0063BAA8 /* LC557.c */,
 				1FF6121A21A6698E00637DD0 /* LC551.h */,
 				1FF6121B21A6698E00637DD0 /* LC551.c */,
 				1F621C7E21A65C4A00F9A2C3 /* LC541.h */,
@@ -743,6 +748,7 @@
 				1F781F0D217EBD4000C14924 /* LC746.c in Sources */,
 				1F6E5B022149128800B72F64 /* Quiz19.c in Sources */,
 				1F0025782163338F006F4AB4 /* LC107.c in Sources */,
+				1F2F63DD21AB98FF0063BAA8 /* LC557.c in Sources */,
 				1F43DEBD216F7285005DEEC0 /* LC283.c in Sources */,
 				1F730451218178C00008D4A0 /* LC581.c in Sources */,
 				1F2F02E12145258800B32E46 /* Quiz10.c in Sources */,

@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC541.h"
+#include "LC557.h"
 
 @implementation OCRun
 
@@ -82,9 +82,9 @@
 
 
 + (void)run {
-    char buffer[] = "abcdefg";
-    
-    reverseStr(buffer, 2);
+    char buffer[] = " Let's take LeetCode contest  ";
+    reverseWords(buffer);
+    printf("%s\n", buffer);
 }
 
 @end
