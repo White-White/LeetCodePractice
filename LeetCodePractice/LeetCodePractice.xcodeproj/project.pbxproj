@@ -106,6 +106,7 @@
 		1FC7F284215E07A200DDDF25 /* LC101.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F283215E07A200DDDF25 /* LC101.c */; };
 		1FC7F28A215E105F00DDDF25 /* LC111.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F289215E105F00DDDF25 /* LC111.c */; };
 		1FC7F28D215E113900DDDF25 /* CommonStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F28C215E113900DDDF25 /* CommonStack.c */; };
+		1FDFF5AA21AC0DA70073CC1C /* LC921.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFF5A921AC0DA70073CC1C /* LC921.c */; };
 		1FE2B954216AFFEA0022C06D /* LC155.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B953216AFFEA0022C06D /* LC155.c */; };
 		1FE2B957216B2C7F0022C06D /* LC160.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B956216B2C7F0022C06D /* LC160.c */; };
 		1FE2B95A216B34160022C06D /* LC167.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B959216B34160022C06D /* LC167.c */; };
@@ -318,6 +319,8 @@
 		1FC7F289215E105F00DDDF25 /* LC111.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC111.c; sourceTree = "<group>"; };
 		1FC7F28B215E113900DDDF25 /* CommonStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonStack.h; sourceTree = "<group>"; };
 		1FC7F28C215E113900DDDF25 /* CommonStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CommonStack.c; sourceTree = "<group>"; };
+		1FDFF5A821AC0DA70073CC1C /* LC921.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC921.h; sourceTree = "<group>"; };
+		1FDFF5A921AC0DA70073CC1C /* LC921.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC921.c; sourceTree = "<group>"; };
 		1FE2B952216AFFEA0022C06D /* LC155.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC155.h; sourceTree = "<group>"; };
 		1FE2B953216AFFEA0022C06D /* LC155.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC155.c; sourceTree = "<group>"; };
 		1FE2B955216B2C7F0022C06D /* LC160.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC160.h; sourceTree = "<group>"; };
@@ -352,6 +355,8 @@
 			children = (
 				1F52691021A2555E00FFB5D4 /* LC941.h */,
 				1F52691121A2555E00FFB5D4 /* LC941.c */,
+				1FDFF5A821AC0DA70073CC1C /* LC921.h */,
+				1FDFF5A921AC0DA70073CC1C /* LC921.c */,
 				1F2F63DB21AB98FF0063BAA8 /* LC557.h */,
 				1F2F63DC21AB98FF0063BAA8 /* LC557.c */,
 				1FF6121A21A6698E00637DD0 /* LC551.h */,
@@ -695,6 +700,7 @@
 				1F00257F21646828006F4AB4 /* LC112.c in Sources */,
 				1F6E5AFC2147EC4600B72F64 /* Quiz18.c in Sources */,
 				1F60C9B121758C5A00B14606 /* LC561.swift in Sources */,
+				1FDFF5AA21AC0DA70073CC1C /* LC921.c in Sources */,
 				1F7FAD79214E2FB5007AE55E /* LC189.c in Sources */,
 				1F719C2221A65ADB0060DBB2 /* LC521.c in Sources */,
 				1F73044E218172250008D4A0 /* LC605.c in Sources */,
