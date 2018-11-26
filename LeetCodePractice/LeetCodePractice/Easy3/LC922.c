@@ -49,3 +49,25 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize) {
     
     return A;
 }
+
+//如果交换的成本很低 则下面的算法可能更快
+int* sortArrayByParityIIAnother(int* A, int ASize, int* returnSize) {
+    
+    int e = 0;
+    int o = 1;
+    
+    while (e < ASize && o < ASize) {
+        if (A[e] % 2 != 0) {
+            int temp = A[e];
+            A[e] = A[o];
+            A[o] = temp;
+            o+=2;
+        } else {
+            e+=2;
+        }
+    }
+    
+    *returnSize = ASize;
+    
+    return A;
+}
