@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC557.h"
+#include "LC923.h"
 
 @implementation OCRun
 
@@ -82,9 +82,8 @@
 
 
 + (void)run {
-    char buffer[] = " Let's take LeetCode contest  ";
-    reverseWords(buffer);
-    printf("%s\n", buffer);
+    int buffer[] = {16,51,36,29,84,80,46,97,84,16};
+    threeSumMultiLC(buffer, 10, 171);
 }
 
 @end
