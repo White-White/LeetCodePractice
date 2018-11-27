@@ -93,6 +93,7 @@
 		1F7FAD79214E2FB5007AE55E /* LC189.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD78214E2FB5007AE55E /* LC189.c */; };
 		1F7FAD7D215149DA007AE55E /* Quiz23.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7C215149DA007AE55E /* Quiz23.c */; };
 		1F7FAD8021514EB1007AE55E /* Quiz23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FAD7F21514EB1007AE55E /* Quiz23.swift */; };
+		1F9719E221ACEC40004E822B /* LC115.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F9719E121ACEC40004E822B /* LC115.c */; };
 		1FA7E9FE2131792100163B81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7E9FD2131792100163B81 /* main.swift */; };
 		1FA7EA052131793100163B81 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EA042131793100163B81 /* day1.swift */; };
 		1FC7F26B215CDC4C00DDDF25 /* LC58.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F26A215CDC4C00DDDF25 /* LC58.c */; };
@@ -296,6 +297,8 @@
 		1F7FAD7C215149DA007AE55E /* Quiz23.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz23.c; sourceTree = "<group>"; };
 		1F7FAD7E21514A98007AE55E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1F7FAD7F21514EB1007AE55E /* Quiz23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz23.swift; sourceTree = "<group>"; };
+		1F9719E021ACEC40004E822B /* LC115.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC115.h; sourceTree = "<group>"; };
+		1F9719E121ACEC40004E822B /* LC115.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC115.c; sourceTree = "<group>"; };
 		1FA7E9FA2131792000163B81 /* LeetCodePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7E9FD2131792100163B81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FA7EA042131793100163B81 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -364,6 +367,8 @@
 			children = (
 				1F52691021A2555E00FFB5D4 /* LC941.h */,
 				1F52691121A2555E00FFB5D4 /* LC941.c */,
+				1F9719E021ACEC40004E822B /* LC115.h */,
+				1F9719E121ACEC40004E822B /* LC115.c */,
 				1FDFF5B121ACE0F10073CC1C /* LC114.h */,
 				1FDFF5B221ACE0F10073CC1C /* LC114.c */,
 				1FDFF5AE21AC14990073CC1C /* LC923.h */,
@@ -722,6 +727,7 @@
 				1F73044E218172250008D4A0 /* LC605.c in Sources */,
 				1F3079C0218010340023605B /* LC674.c in Sources */,
 				1F73044B218167B60008D4A0 /* LC628.c in Sources */,
+				1F9719E221ACEC40004E822B /* LC115.c in Sources */,
 				1FC7F274215CF6EB00DDDF25 /* LC69.c in Sources */,
 				1F60C999217440ED00B14606 /* LC414.c in Sources */,
 				1F2F02CF2143B65C00B32E46 /* Quiz6.c in Sources */,

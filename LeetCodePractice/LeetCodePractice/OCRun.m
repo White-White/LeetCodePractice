@@ -10,7 +10,7 @@
 //oc c 测试环境
 
 #include "LC168.h"
-#include "LC923.h"
+#include "LC115.h"
 
 @implementation OCRun
 
