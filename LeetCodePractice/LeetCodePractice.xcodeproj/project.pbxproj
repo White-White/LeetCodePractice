@@ -18,6 +18,7 @@
 		1F00258B21649D26006F4AB4 /* LC125.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258A21649D26006F4AB4 /* LC125.c */; };
 		1F00258E2164A6C2006F4AB4 /* LC141.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F00258D2164A6C2006F4AB4 /* LC141.c */; };
 		1F0B5EE8215F2AF900CF63E3 /* LC110.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B5EE7215F2AF900CF63E3 /* LC110.c */; };
+		1F11180421BA168100F10FF2 /* LC606.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11180321BA168100F10FF2 /* LC606.swift */; };
 		1F274EA5215BA4520076AAD1 /* Quiz31.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F274EA4215BA4520076AAD1 /* Quiz31.c */; };
 		1F279B57216D9E9A007E9054 /* LC169.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F279B56216D9E9A007E9054 /* LC169.c */; };
 		1F279B5A216DBA32007E9054 /* LC217.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F279B59216DBA32007E9054 /* LC217.c */; };
@@ -155,6 +156,7 @@
 		1F0B5EE6215F2AF900CF63E3 /* LC110.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC110.h; sourceTree = "<group>"; };
 		1F0B5EE7215F2AF900CF63E3 /* LC110.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LC110.c; sourceTree = "<group>"; };
 		1F0B5EE9215F2B8400CF63E3 /* Quiz7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz7.h; sourceTree = "<group>"; };
+		1F11180321BA168100F10FF2 /* LC606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC606.swift; sourceTree = "<group>"; };
 		1F274EA3215BA4520076AAD1 /* Quiz31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz31.h; sourceTree = "<group>"; };
 		1F274EA4215BA4520076AAD1 /* Quiz31.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Quiz31.c; sourceTree = "<group>"; };
 		1F279B55216D9E9A007E9054 /* LC169.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LC169.h; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 			children = (
 				1F52691021A2555E00FFB5D4 /* LC941.h */,
 				1F52691121A2555E00FFB5D4 /* LC941.c */,
+				1F11180321BA168100F10FF2 /* LC606.swift */,
 				1F9719E021ACEC40004E822B /* LC115.h */,
 				1F9719E121ACEC40004E822B /* LC115.c */,
 				1FDFF5B121ACE0F10073CC1C /* LC114.h */,
@@ -702,6 +705,7 @@
 				1FC7F271215CECCA00DDDF25 /* LC67.c in Sources */,
 				1F3079C621801B830023605B /* LC661.c in Sources */,
 				1F00257A21634EF3006F4AB4 /* LC107.swift in Sources */,
+				1F11180421BA168100F10FF2 /* LC606.swift in Sources */,
 				1FE2B957216B2C7F0022C06D /* LC160.c in Sources */,
 				1F2F02EA2145304D00B32E46 /* Quiz14.c in Sources */,
 				1F29B0592179B2BF002B300B /* LC840.c in Sources */,
